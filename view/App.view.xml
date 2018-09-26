@@ -1,8 +1,8 @@
-<mvc:View
+﻿<mvc:View
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
   <Text text="Hello World"/>
-  <Link text ="Arial 简历" HREF="./ArialResume/ArialResumeIndex.html" />
-  <Link text ="SAPUI5 Demo - Hello World!" HREF="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-  <Link text ="SAPUI5 Demo Apps" HREF="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+  <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+  <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+  <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
 </mvc:View>
