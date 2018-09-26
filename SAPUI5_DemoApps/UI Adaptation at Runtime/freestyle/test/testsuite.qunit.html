@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>QUnit TestSuite for Products Manage</title>
+		<script src="../../../../../../../../resources/sap/ui/qunit/qunit-redirect.js"></script>
+		<script>
+			var __aPrefixMatches = document.location.pathname.match(/(.*)\/test-resources\//);
+			var __sPathPrefix = __aPrefixMatches &&  __aPrefixMatches[1] || "";
+			
+			document.write('<script src="' + __sPathPrefix + '/resources/sap-ui-core.js"><' + '/script>');
+		</script>
+		<script>
+
+		/**
+		 * Add test pages to this test suite function.
+		 */
+		function suite() {
+			var oSuite = new parent.jsUnitTestSuite(),
+				sContextPath = location.pathname.substring(0, location.pathname.lastIndexOf("/") + 1);
+
+			if (!sap.ui.Device.browser.phantomJS) {
+				oSuite.addTestPage(sContextPath + "integration/opaTests.qunit.html");
+			}
+
+			return oSuite;
+		}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

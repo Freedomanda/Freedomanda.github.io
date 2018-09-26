@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<title>UI Adaptation at Runtime</title>
+	<script>
+		window['sap-ui-config'] = window['sap-ui-config'] || {};
+		window['sap-ui-config'].theme = 'sap_belize';
+		window['sap-ui-config'].language = 'en';
+		window['sap-ui-config'].compatVersion = 'edge';
+		window['sap-ui-config'].libs = 'sap.m,sap.ui.rta';
+		window['sap-ui-config'].resourceroots = {
+			"sap.ui.demoapps.rta.freestyle": "../"
+		};
+
+		var __aPrefixMatches = document.location.pathname.match(/(.*)\/test-resources\//);
+		var __sPathPrefix = __aPrefixMatches &&  __aPrefixMatches[1] || "";
+		
+		document.write('<script src="' + __sPathPrefix + '/resources/sap-ui-core.js"><' + '/script>');
+	</script>
+	<script>
+		sap.ui.getCore().attachInit(function() {
+			sap.ui.require([
+				"sap/m/Shell",
+				"sap/ui/core/ComponentContainer"
+			], function (Shell, ComponentContainer) {
+				// initialize the UI component
+				new Shell({
+					app: new ComponentContainer({
+						height : "100%",
+						component : sap.ui.component({
+							name: "sap.ui.demoapps.rta.freestyle",
+							settings: {
+								id : "freestyle"
+							},
+							componentData: {
+								"showAdaptButton" : true
+							}
+						})
+					})
+				}).placeAt("content");
+			});
+		});
+	</script>
+</head>
+
+<!-- UI Content -->
+<body class="sapUiBody" id="content">
+</body>
+</html>
