@@ -1,15 +1,68 @@
 ﻿<mvc:View
   controllerName="chuntian.home.controller.App"
   xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc">
-  <Text text="Hello World"/>
-  <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" /> 
-  <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-  <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-  <Button text ="{i18n>clickMe}" press = "onShowHello"/>
-  <Input value ="{/recipient/name}"
-         description ="Hello {/recipient/name}(JSONModel)"
-         valueLiveUpdate="true"
-         width="60%"
-    />
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <App initialPage="home">
+    <pages>
+      <Page title ="{i18n>homePageTitle}" id ="home" showNavButton="true" navButtonPress= 'function(){ app.to("Arial");}'>
+        <content>
+          <Panel text ="SourceCode" id ="SourceCode">
+        <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+        <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+        <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+        <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+        <Input value ="{/recipient/name}"
+               description ="Hello {/recipient/name}(JSONModel)"
+               valueLiveUpdate="true"
+               width="60%"/>
+          </Panel>
+
+          <Panel id ="ABAP">
+            <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+            <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+            <Input value ="{/recipient/name}"
+                   description ="Hello {/recipient/name}(JSONModel)"
+                   valueLiveUpdate="true"
+                   width="60%"/>
+          </Panel>
+
+          <Panel id ="SAPUI5">
+            <Link text ="Practises" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+            <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+            <Input value ="{/recipient/name}"
+                   description ="Hello {/recipient/name}(JSONModel)"
+                   valueLiveUpdate="true"
+                   width="60%"/>
+          </Panel>
+
+          <Panel text="Arial Resume" id ="ArialResume">
+            <Link text ="Practises" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+          </Panel>          
+          
+        </content>
+      </Page>
+      <Page title ="{i18n>arialPageTitle}" id ="Arial">
+        <content>
+          <Panel>
+            <Text text="Hello World"/>
+            <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+            <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+            <Input value ="{/recipient/name}"
+                   description ="Hello {/recipient/name}(JSONModel)"
+                   valueLiveUpdate="true"
+                   width="60%"/>
+          </Panel>
+        </content>
+      </Page>      
+    </pages>
+  </App>
 </mvc:View>
