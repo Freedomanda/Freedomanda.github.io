@@ -13,7 +13,7 @@
         <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
           </Panel>
 
-          <Panel id ="ABAP">
+          <Panel headerText="SAP ABAP" id ="ABAP">
             <Link text ="SAP Help" href="./ArialResume/ArialResumeIndex.html" />
             <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
           </Panel>
