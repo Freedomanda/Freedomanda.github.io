@@ -1,4 +1,4 @@
-﻿<mvc:View
+<mvc:View
   controllerName="chuntian.home.controller.App"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
@@ -7,43 +7,30 @@
     <pages>
       <Page title ="{i18n>homePageTitle}" id ="home" showNavButton="true" navButtonPress= 'function(){ app.to("Arial");}'>
         <content>
-          <Panel text ="SourceCode" id ="SourceCode">
-        <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
-        <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-        <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-        <Button text ="{i18n>clickMe}" press = "onShowHello"/>
-        <Input value ="{/recipient/name}"
-               description ="Hello {/recipient/name}(JSONModel)"
-               valueLiveUpdate="true"
-               width="60%"/>
+          <Panel headerText ="SourceCode" id ="SourceCode">
+        <Link text ="Amokr" href="./ArialResume/ArialResumeIndex.html" />
+        <Link text ="Brighstone" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+        <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
           </Panel>
 
           <Panel id ="ABAP">
-            <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAP Help" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+          </Panel>
+
+          <Panel headerText="SAP UI5相关" id ="SAPUI5">
             <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
             <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
             <Button text ="{i18n>clickMe}" press = "onShowHello"/>
-            <Input value ="{/recipient/name}"
+            <Input value ="{/headerTextrecipient/name}"
                    description ="Hello {/recipient/name}(JSONModel)"
                    valueLiveUpdate="true"
                    width="60%"/>
           </Panel>
 
-          <Panel id ="SAPUI5">
-            <Link text ="Practises" href="./ArialResume/ArialResumeIndex.html" />
-            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-            <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
-            <Input value ="{/recipient/name}"
-                   description ="Hello {/recipient/name}(JSONModel)"
-                   valueLiveUpdate="true"
-                   width="60%"/>
-          </Panel>
-
-          <Panel text="Arial Resume" id ="ArialResume">
-            <Link text ="Practises" href="./ArialResume/ArialResumeIndex.html" />
-            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+          <Panel headerText="Arial Resume" id ="ArialResume">
+            <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html" />
           </Panel>          
           
         </content>
