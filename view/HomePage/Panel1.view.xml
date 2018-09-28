@@ -1,0 +1,11 @@
+<mvc:View
+  controllerName="chuntian.home.controller.HomePage.Panel1"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Panel headerText ="SourceCode" id ="SourceCode" class="sapUiResponsiveMargin" width="auto">
+    <Link text ="Amokr" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="Brighstone" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps" class="sapUiResponsiveMargin" width="auto"/>
+  </Panel>
+</mvc:View>

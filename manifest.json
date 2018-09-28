@@ -38,6 +38,11 @@
           "bundleName": "chuntian.home.i18n.i18n"
         }
       }
-    }
+    },
+    "css": [
+      {
+        "uri":  "css/style.css"
+      }
+    ]
   }
 }

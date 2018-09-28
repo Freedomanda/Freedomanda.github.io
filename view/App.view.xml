@@ -7,34 +7,10 @@
     <pages>
       <Page title ="{i18n>homePageTitle}" id ="home" showNavButton="true" navButtonPress= 'function(){ app.to("Arial");}'>
         <content>
-          <Panel headerText ="SourceCode" id ="SourceCode">
-            <Link text ="Amokr" href="./ArialResume/ArialResumeIndex.html" />
-            <Link text ="Brighstone" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-            <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-          </Panel>
-
-          <Panel headerText="[ SAP ABAP ]" id ="ABAP">
-            <Link text ="SAP Help" href="./ArialResume/ArialResumeIndex.html" />
-            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-          </Panel>
-
-          <Panel headerText="SAP UI5相关" id ="SAPUI5">
-            <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-            <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-            <Button text ="{i18n>clickMe}" press = "onShowHello"/>
-            <Input value ="{/headerTextrecipient/name}"
-                   description ="Hello {/recipient/name}(JSONModel)"
-                   valueLiveUpdate="true"
-                   width="60%"/>
-          </Panel>
-
-          <Panel headerText="Arial Resume" id ="ArialResume">
-
-            <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" />
-            <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html" />
-
-          </Panel>
-
+          <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel1"/>
+          <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel2"/>
+          <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel3"/>
+          <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel4"/>
         </content>
       </Page>
       <Page title ="{i18n>arialPageTitle}" id ="Arial">

@@ -17,11 +17,17 @@
 	</script>
 	<script type="text/javascript">
 		sap.ui.getCore().attachInit(function () {
-		/*sap.ui.xmlview({
+		/* Replace by component
+         * sap.ui.xmlview({
                	viewName : "chuntian.home.view.App"
             		}).placeAt("content");*/
-            new sap.ui.core.ComponentContainer({
-                name: "chuntian.home"
+            new sap.m.Shell({
+                app: new sap.ui.core.ComponentContainer({
+                    name: "chuntian.home",
+                    setting: {
+                        id: "chunge",
+                    }
+                })
             }).placeAt("content");
 		});
 	</script>

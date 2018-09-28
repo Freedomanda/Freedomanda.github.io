@@ -1,0 +1,14 @@
+<mvc:View
+  controllerName="chuntian.home.controller.HomePage.Panel4"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+
+  <Panel headerText="Arial Resume" id ="ArialResume" class="sapUiResponsiveMargin" width="auto">
+
+    <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin"/>
+    <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html" class="sapUiSmallMargin"/>
+
+  </Panel>
+  
+</mvc:View>
