@@ -3,9 +3,13 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
-  <App initialPage="home">
+  <App initialPage="Home">
     <pages>
-      <Page title ="{i18n>homePageTitle}" id ="home" showNavButton="true" navButtonPress= 'function(){ app.to("Arial");}'>
+      <Page title ="{i18n>homePageTitle}" id ="Home" 
+            showNavButton="true" navButtonPress= "OnNav2Arial"
+            navButtonTooltip ="{i18n>toArial}"
+            navButtonText ="{i18n>Nav2Arial}"
+            icon ="sap-icon://account">
         <content>
           <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel1"/>
           <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel2"/>

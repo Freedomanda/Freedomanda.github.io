@@ -26,6 +26,7 @@
             var sMsg = oBundle.getText("helloMsg", [sRecipient]);
             // show message
             messageToast.show(sMsg);
-            }
+            },
+            OnNav2Arial: function () { App.to("Arial");}
     });
 });
