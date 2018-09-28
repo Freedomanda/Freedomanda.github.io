@@ -8,9 +8,9 @@
       <Page title ="{i18n>homePageTitle}" id ="home" showNavButton="true" navButtonPress= 'function(){ app.to("Arial");}'>
         <content>
           <Panel headerText ="SourceCode" id ="SourceCode">
-        <Link text ="Amokr" href="./ArialResume/ArialResumeIndex.html" />
-        <Link text ="Brighstone" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-        <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+            <Link text ="Amokr" href="./ArialResume/ArialResumeIndex.html" />
+            <Link text ="Brighstone" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+            <Link text ="AtlasCopco" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
           </Panel>
 
           <Panel headerText="[ SAP ABAP ]" id ="ABAP">
@@ -29,10 +29,12 @@
           </Panel>
 
           <Panel headerText="Arial Resume" id ="ArialResume">
+
             <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" />
             <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html" />
-          </Panel>          
-          
+
+          </Panel>
+
         </content>
       </Page>
       <Page title ="{i18n>arialPageTitle}" id ="Arial">
@@ -49,7 +51,7 @@
                    width="60%"/>
           </Panel>
         </content>
-      </Page>      
+      </Page>
     </pages>
   </App>
 </mvc:View>
