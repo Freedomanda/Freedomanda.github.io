@@ -27,6 +27,6 @@
             // show message
             messageToast.show(sMsg);
             },
-            OnNav2Arial: function () { App.to("Arial");}
+            OnNav2Arial: function () { App.navTo("Arial");}
     });
 });
