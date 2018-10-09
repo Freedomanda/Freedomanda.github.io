@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /*header样式开始*/
 header{width:100%; background:#fef7f4; position:absolute;}
 h1{width:1200px; margin:0 auto;}
@@ -55,7 +55,7 @@ h2 span{color:#e0363e; font-size:50px;}
 .introduce:after{content:""; display:block; clear:both; height: 0;}
 /*about me样式结束*/
 /*timeline样式开始*/
-.zone2{width:1200px; height:580px; margin:60px auto 0;}
+.zone2{width:1200px; height:780px; margin:30px auto 0;}
 h3{font:bold 30px/30px Arial; color:#d99378; margin-left:200px;}
 .zone2 ul{margin-left:240px; font-size:0; position:absolute;}
 .zone2 span{font:16px/16px "微软雅黑"; color:#666; display:inline-block; position:relative; bottom:14px;}
