@@ -17,25 +17,23 @@
                 messageToast.show(sMsg);
             },
             onOpenDialog: function () {
-                /*Replace and refactor to new indepent js - helloDialog.js,
                 var oView = this.getView();
                 var oDialog = oView.byId("helloDialog");
                 // create dialog lazily
                 if (!oDialog) {
                     // create dialog via fragment factory
                     oDialog = sap.ui.xmlfragment(oView.getId(), "chuntian.home.view.HelloDialog", this);
-                    // another way to load fragment
-                     // oDialog = sap.ui.xmlfragment(oView.getId(),
-                       // { "fragmentName": "chuntian.home.view.HelloDialog"}, this);  // Same as above
+                    /* another way to load fragment
+                     * oDialog = sap.ui.xmlfragment(oView.getId(),
+                        { "fragmentName": "chuntian.home.view.HelloDialog"}, this);  // Same as above
+                    */
                     oView.addDependent(oDialog);
                 }
-                oDialog.open(); */
-                this.getOwnerComponent().openHelloDialog();
-            }
-            /* Remove and refactor to new indepent js - helloDialog.js,
+                oDialog.open();
+            },
             onCloseDialog: function () {
                 this.getView().byId("helloDialog").close();
-            } */
+            }
 
         });
     });

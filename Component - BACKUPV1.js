@@ -1,9 +1,8 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
     "sap/ui/model/json/JSONModel",
-    "chuntian/home/controller/Dialog/HelloDialog"
     //"sap/ui/model/resource/ResourceModel",
-], function (UIComponent, JSONModel, HelloDialog) {
+    ], function (UIComponent, JSONModel) {
     "use strict";
     return UIComponent.extend("chuntian.home.Component",
         {
@@ -32,15 +31,6 @@ sap.ui.define([
                 var i18nModel = new ResourceModel({ bundleName: "chuntian.home.i18n.i18n" });
                 this.setModel(i18nModel, "i18n");
            */
-                // set dialog
-                this._helloDialog = new HelloDialog(this.getRootControl());
-            },
-            exit: function () {
-                this._helloDialog.destroy();
-                delete this._helloDialog;
-            },
-            openHelloDialog: function () {
-                this._helloDialog.open();
             }
         }
     )
