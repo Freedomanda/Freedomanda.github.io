@@ -1,0 +1,24 @@
+<mvc:View
+  controllerName="chuntian.home.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Page title ="{i18n>homePageTitle}"
+        showNavButton="true" navButtonPress= "OnNav2Arial"
+        navButtonTooltip ="{i18n>toArial}"
+        navButtonText ="{i18n>Nav2Arial}"
+        icon ="sap-icon://account">
+    <headerContent>
+      <Button
+        icon="sap-icon://hello-world"
+        press="onOpenDialog"/>
+      <Text text="{i18n>slogan}" />
+    </headerContent>
+    <content>
+      <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel1"/>
+      <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel2"/>
+      <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel3"/>
+      <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel4"/>
+    </content>
+  </Page>
+</mvc:View>

@@ -1,0 +1,21 @@
+<mvc:View
+  controllerName="chuntian.home.controller.App"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Page title ="{i18n>arialPageTitle}" id ="Arial">
+    <content>
+      <Panel>
+        <Text text="Hello World"/>
+        <Link text ="Arial 简历" href="./ArialResume/ArialResumeIndex.html" />
+        <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+        <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
+        <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+        <Input value ="{/recipient/name}"
+               description ="Hello {/recipient/name}(JSONModel)"
+               valueLiveUpdate="true"
+               width="60%"/>
+      </Panel>
+    </content>
+  </Page>
+</mvc:View>

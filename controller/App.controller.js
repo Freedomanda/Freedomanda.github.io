@@ -27,6 +27,13 @@
             // show message
             messageToast.show(sMsg);
             },
-            OnNav2Arial: function () { App.navTo("Arial");}
+            OnNav2Arial: function (oEvent) {
+                var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+                oRouter.navTo("page1");
+            },
+
+            onOpenDialog: function () {
+                this.getOwnerComponent().openHelloDialog();
+            }
     });
 });

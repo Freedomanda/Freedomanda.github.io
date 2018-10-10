@@ -41,8 +41,40 @@
     },
     "css": [
       {
-        "uri":  "css/style.css"
+        "uri": "css/style.css"
       }
     ]
+  },
+  "routing": {
+    "config": {
+      "routerClass": "sap.m.routing.Router",
+      "viewType": "XML",
+      "viewPath": "chuntian.home.view",
+      "controlId": "app",
+      "controlAggregation": "pages",
+      "async": true
+    },
+    "routes": [
+      {
+        "pattern": "",
+        "name": "homepage",
+        "target": "homepage"
+      },
+      {
+        "pattern": "page1",
+        "name": "page1",
+        "target": "page1"
+      }
+    ],
+    "targets": {
+      "homepage": {
+        "viewID": "homepage",
+        "viewName": "Homepage"
+      },
+      "page1": {
+        "viewId": "page1",
+        "viewName": "Page1"
+      }
+    }
   }
 }
