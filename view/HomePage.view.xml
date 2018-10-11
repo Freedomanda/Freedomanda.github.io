@@ -3,7 +3,7 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
-  <Page title ="{i18n>homePageTitle}" id ="Home"
+  <Page title ="{i18n>homePageTitle}" 
         showNavButton="true" navButtonPress= "OnNav2Arial"
         navButtonTooltip ="{i18n>toArial}"
         navButtonText ="{i18n>Nav2Arial}"
