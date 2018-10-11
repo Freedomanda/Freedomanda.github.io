@@ -4,7 +4,7 @@
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
 
-  <Panel headerText="Arial Resume" id ="ArialResume" class="sapUiResponsiveMargin" width="auto">
+  <Panel headerText="{i18n>hpa4}" class="sapUiResponsiveMargin" width="auto">
 
     <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  class="sapUiSmallMargin"/>
