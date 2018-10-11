@@ -22,7 +22,7 @@ sap.ui.define([
                 //call the initial function of the parent
                 UIComponent.prototype.init.apply(this, arguments);
                 // create the views based on the url/hash,initialize the router
-                //this.getRouter.initialize();
+                this.getRouter().initialize();
                 //set data model
                 var oData = {
                     recipient: { name: "World" }
