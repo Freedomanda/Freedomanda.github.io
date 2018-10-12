@@ -3,12 +3,12 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
-  <Panel headerText="SAP UI5相关" id ="SAPUI5" class="sapUiResponsiveMargin" width="auto">
+  <Panel headerText="{i18n>hpa3_hdtxt}" id ="SAPUI5" class="sapUiResponsiveMargin" width="auto">
     
-    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
-    <Link text ="练习" href="./Chunge_UI5/PracticsHome/index.html"/>
-    <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"/>
-    <Button text ="{i18n>clickMe}" press = "onShowHello"/>
+    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="练习" href="./Chunge_UI5/PracticsHome/index.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps" class="sapUiResponsiveMargin" width="auto"/>
+    <Button text ="{i18n>clickMe}" press = "onShowHello" />
     <Input value ="{/recipient/name}"
            description ="Hello {/recipient/name}(JSONModel)"
            valueLiveUpdate="true"

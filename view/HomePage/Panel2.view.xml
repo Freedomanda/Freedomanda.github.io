@@ -3,8 +3,19 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
-  <Panel headerText="[ SAP ABAP ]" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
-    <Link text ="SAP Help" href="./ArialResume/ArialResumeIndex.html" />
-    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html"/>
+  <Panel headerText="{i18n>hpa2_hdtxt}" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
+    <Link text ="{i18n>hpa2_itmtxt1}" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt2}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt3}" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt4}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt5}" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt6}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt7}" href="./ArialResume/ArialResumeIndex.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt8}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt9}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt10}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt11}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt12}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa2_itmtxt13}" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>    
   </Panel>
 </mvc:View>

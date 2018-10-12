@@ -8,7 +8,14 @@
 			<Page
 				id="page"
 				title="{i18n>title}">
-				<content></content>
+        <headerContent>
+          <Button
+             icon="sap-icon://hello-world"
+             press="onOpenDialog"/>
+        </headerContent>
+				<content>
+          <mvc:XMLView viewName="sap.ui.demo.basicTemplate.view.InvoiceList"/>
+        </content>
 			</Page>
 		</pages>
 	</App>
