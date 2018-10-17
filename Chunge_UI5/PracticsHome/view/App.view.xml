@@ -12,7 +12,11 @@
           <Button
              icon="sap-icon://hello-world"
              press="onOpenDialog"/>
-          <Link text ="SAP Help Portal" href="https://help.sap.com/viewer/index" class="sapUiResponsiveMargin" width="auto"/>
+          <Link text ="SAP Help Portal" 
+                href="http://www.baidu.com"  
+                class="sapUiResponsiveMargin" 
+                target="_blank"
+                width="auto"/>
         </headerContent>
 				<content>
           <mvc:XMLView viewName="sap.ui.demo.basicTemplate.view.InvoiceList"/>

@@ -5,9 +5,12 @@
   displayBlock="true">
   <Panel headerText="{i18n>hpa3_hdtxt}" id ="SAPUI5" class="sapUiResponsiveMargin" width="auto">
     
-    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html" class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="练习" href="./Chunge_UI5/PracticsHome/index.html" class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
+          class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
+          class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
+          target="_blank" class="sapUiResponsiveMargin" width="auto"/>
     <Button text ="{i18n>clickMe}" press = "onShowHello" />
     <Input value ="{/recipient/name}"
            description ="Hello {/recipient/name}(JSONModel)"
