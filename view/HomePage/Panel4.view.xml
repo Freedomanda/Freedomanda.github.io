@@ -10,7 +10,6 @@
           emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  
           target="_blank" class="sapUiSmallMargin"/>
-
   </Panel>
   
 </mvc:View>

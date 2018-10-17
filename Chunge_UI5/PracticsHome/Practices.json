@@ -1,14 +1,14 @@
 {
   "Practices": [
 	{
-	  "Name": "Pineapple",
-	  "Description": 21,
-	  "Date": "2015-04-01T00:00:00",
+	  "Name": "Hello World",
+	  "Description": "The first Helloworld application",
+	  "Date": "2017-01-01T00:00:00",
 	  "Status": "A"
 	},
 	{
-	  "Name": "Pineapple",
-	  "Description": 21,
+	  "Name": "Data Binding",
+	  "Description": "Use a json file to binding data to a List control",
 	  "Date": "2015-04-01T00:00:00",
 	  "Status": "B"
 	},

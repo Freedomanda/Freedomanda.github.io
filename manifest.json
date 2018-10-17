@@ -37,6 +37,10 @@
         "settings": {
           "bundleName": "chuntian.home.i18n.i18n"
         }
+      },
+      "practice": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "Practices.json"
       }
     },
     "css": [
@@ -73,6 +77,18 @@
         "page1": {
           "viewId": "page1",
           "viewName": "Page1"
+        },
+        "page2": {
+          "viewId": "page2",
+          "viewName": "Page2"
+        },
+        "page3": {
+          "viewId": "page3",
+          "viewName": "Page1"
+        },
+        "page4": {
+          "viewId": "page4",
+          "viewName": "Page2"
         }
       }
     }
