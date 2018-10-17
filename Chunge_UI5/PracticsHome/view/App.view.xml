@@ -12,6 +12,7 @@
           <Button
              icon="sap-icon://hello-world"
              press="onOpenDialog"/>
+          <Link text ="SAP Help Portal" href="https://help.sap.com/viewer/index" class="sapUiResponsiveMargin" width="auto"/>
         </headerContent>
 				<content>
           <mvc:XMLView viewName="sap.ui.demo.basicTemplate.view.InvoiceList"/>
