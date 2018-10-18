@@ -1,0 +1,24 @@
+<mvc:View
+   controllerName="chuntian.PracticeHome.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+  <List
+     headerText="{i18n>practiceListTitle}"
+     class="sapUiResponsiveMargin"
+     width="auto"
+     items="{practice>/Practices}" >
+    <items>
+      <ObjectListItem
+         title="{practice>Name} : {practice>Description}"
+         		number="{
+			parts: [{path: 'practice>Duration'}, {path: 'practice>Unit'}],
+			type: 'sap.ui.model.type.Unit',
+			formatOptions: {
+				showMeasure: false
+			}
+		}"
+		numberUnit="{practice>Unit}"
+    numberState="{= ${practice>Status} !== 'C' ? 'Error' : 'Success' }"/>
+    </items>
+  </List>
+</mvc:View>

@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"sap/ui/demo/basicTemplate/model/formatter"
+	"chuntian/PracticeHome/model/formatter"
 ], function() {
 	"use strict";
 

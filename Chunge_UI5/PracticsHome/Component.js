@@ -1,11 +1,11 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"sap/ui/demo/basicTemplate/model/models"
+	"chuntian/PracticeHome/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("sap.ui.demo.basicTemplate.Component", {
+	return UIComponent.extend("chuntian.PracticeHome.Component", {
 
 		metadata: {
 			manifest: "json"

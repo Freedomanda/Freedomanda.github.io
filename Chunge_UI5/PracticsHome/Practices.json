@@ -3,20 +3,26 @@
 	{
 	  "Name": "Hello World",
 	  "Description": "The first Helloworld application",
-	  "Date": "2017-01-01T00:00:00",
+    "Date": "2017-01-01T00:00:00",
+    "Duration": "1",
+    "Unit":  "Hour",
 	  "Status": "A"
 	},
-	{
-	  "Name": "Data Binding",
-	  "Description": "Use a json file to binding data to a List control",
-	  "Date": "2015-04-01T00:00:00",
-	  "Status": "B"
-	},
-	{
-	  "Name": "Others",
-	  "Description": "Some toys",
-	  "Date": "2015-04-01T00:00:00",
-	  "Status": "C"
-	}
+    {
+      "Name": "Data Binding",
+      "Description": "Use a json file to binding data to a List control",
+      "Date": "2015-04-01T00:00:00",
+      "Duration": "4.5",
+      "Unit": "Hour",
+      "Status": "B"
+    },
+    {
+      "Name": "Others",
+      "Description": "Some toys",
+      "Date": "2015-04-01T00:00:00",
+      "Duration": "5",
+      "Unit": "Day",
+      "Status": "C"
+    }
   ]
 }
