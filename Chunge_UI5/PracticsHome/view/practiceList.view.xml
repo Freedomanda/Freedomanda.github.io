@@ -7,7 +7,12 @@
      headerText="{i18n>practiceListTitle}"
      class="sapUiResponsiveMargin"
      width="auto"
-     items="{practice>/Practices}" >
+     items="{path: 'practice>/Practices',
+             sorter:{
+                path: 'Level',
+                group: true
+                    }
+             }" >
     <headerToolbar>
       <Toolbar>
         <Title text="{i18n>practiceListTitle}"/>

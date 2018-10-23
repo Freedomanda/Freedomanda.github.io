@@ -1,20 +1,31 @@
 {
   "Practices": [
-	{
-	  "Name": "Hello World",
-	  "Description": "The first Helloworld application",
-    "Date": "2017-01-01T00:00:00",
-    "Duration": "1",
-    "Unit":  "Hour",
-	  "Status": "A"
-	},
+    {
+      "Name": "Hello World",
+      "Description": "The first Helloworld application",
+      "Date": "2017-01-01T00:00:00",
+      "Duration": "1",
+      "Unit": "Hour",
+      "Status": "A",
+      "Level": "Junior"
+    },
     {
       "Name": "Data Binding",
       "Description": "Use a json file to binding data to a List control",
       "Date": "2015-04-01T00:00:00",
       "Duration": "4.5",
       "Unit": "Hour",
-      "Status": "B"
+      "Status": "B",
+      "Level": "Middle"
+    },
+    {
+      "Name": "Filter",
+      "Description": "Add the SearchField for filter",
+      "Date": "2015-04-01T00:00:00",
+      "Duration": "4.5",
+      "Unit": "Hour",
+      "Status": "B",
+      "Level": "Middle"
     },
     {
       "Name": "Others",
@@ -22,7 +33,8 @@
       "Date": "2015-04-01T00:00:00",
       "Duration": "5",
       "Unit": "Day",
-      "Status": "C"
+      "Status": "C",
+      "Level": "Senior"
     }
   ]
 }
