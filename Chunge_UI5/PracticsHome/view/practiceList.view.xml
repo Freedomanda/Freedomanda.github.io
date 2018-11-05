@@ -31,7 +31,9 @@
 			}
 		}"
 		numberUnit="{practice>Unit}"
-    numberState="{= ${practice>Status} !== 'C' ? 'Error' : 'Success' }">
+    numberState="{= ${practice>Status} !== 'C' ? 'Error' : 'Success' }"
+    type ="Navigation"
+    press ="onPress">
       <firstStatus>
         <ObjectStatus text="{
                       path:'practice>Status',

@@ -24,6 +24,10 @@ sap.ui.define([
             var oList = this.byId("PracticeList");
             var oBinding = oList.getBinding("items");
             oBinding.filter(aFilter);
+        },
+        onPress: function (oEvent) {
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            oRouter.navTo("helloworld");
         }
 	});
 });

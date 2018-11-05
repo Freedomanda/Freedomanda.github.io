@@ -1,0 +1,12 @@
+<mvc:View
+  controllerName="chuntian.PracticeHome.controller.Practice.HelloWorld"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Page title="{i18n>Helloworld}" showNavButton="true"  navButtonPress="onNavBack">
+  <Panel headerText="Helloworld" id ="hello" class="sapUiResponsiveMargin" width="auto">
+    <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" emphasized="true" class="sapUiResponsiveMargin"/>
+    <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  class="sapUiSmallMargin"/>
+  </Panel>
+  </Page>
+</mvc:View>
