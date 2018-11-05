@@ -2,45 +2,62 @@
    controllerName="chuntian.PracticeHome.controller.PracticeList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-  <List
-     id="PracticeList"
-     headerText="{i18n>practiceListTitle}"
-     class="sapUiResponsiveMargin"
-     width="auto"
-     items="{path: 'practice>/Practices',
+    <Page
+      id="page"
+      title="{i18n>title}">
+      <headerContent>
+        <Button
+           icon="sap-icon://hello-world"
+           press="onOpenDialog"/>
+        <Link text ="SAP Help Portal"
+              href="https://help.sap.com/viewer/index"
+              class="sapUiResponsiveMargin"
+              target="_blank"
+              width="auto"/>
+      </headerContent>
+      <content>
+        <List
+   id="PracticeList"
+   headerText="{i18n>practiceListTitle}"
+   class="sapUiResponsiveMargin"
+   width="auto"
+   items="{path: 'practice>/Practices',
              sorter:{
                 path: 'Level',
                 group: true
                     }
              }" >
-    <headerToolbar>
-      <Toolbar>
-        <Title text="{i18n>practiceListTitle}"/>
-        <ToolbarSpacer/>
-        <SearchField width="50%" search="onFilterPractice"/>
-      </Toolbar>  
-    </headerToolbar>  
-    <items>
-      <ObjectListItem
-         title="{practice>Name} : {practice>Description}"
-         		number="{
+          <headerToolbar>
+            <Toolbar>
+              <Title text="{i18n>practiceListTitle}"/>
+              <ToolbarSpacer/>
+              <SearchField width="50%" search="onFilterPractice"/>
+            </Toolbar>
+          </headerToolbar>
+          <items>
+            <ObjectListItem
+               title="{practice>Name} : {practice>Description}"
+                  number="{
 			parts: [{path: 'practice>Duration'}, {path: 'practice>Unit'}],
 			type: 'sap.ui.model.type.Unit',
 			formatOptions: {
 				showMeasure: false
 			}
 		}"
-		numberUnit="{practice>Unit}"
-    numberState="{= ${practice>Status} !== 'C' ? 'Error' : 'Success' }"
-    type ="Navigation"
-    press ="onPress">
-      <firstStatus>
-        <ObjectStatus text="{
+          numberUnit="{practice>Unit}"
+          numberState="{= ${practice>Status} !== 'C' ? 'Error' : 'Success' }"
+          type ="Navigation"
+          press ="onPress">
+              <firstStatus>
+                <ObjectStatus text="{
                       path:'practice>Status',
                       formatter: '.formatter.statusText'
                       }"/>
-      </firstStatus>  
-    </ObjectListItem>     
-    </items>
-  </List>
+              </firstStatus>
+            </ObjectListItem>
+          </items>
+        </List>
+      </content>
+    </Page>
+
 </mvc:View>
