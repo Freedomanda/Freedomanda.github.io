@@ -3,25 +3,5 @@
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true"
 	xmlns="sap.m">
-	<App id ="app">
-		<pages>
-			<Page
-				id="page"
-				title="{i18n>title}">
-        <headerContent>
-          <Button
-             icon="sap-icon://hello-world"
-             press="onOpenDialog"/>
-          <Link text ="SAP Help Portal" 
-                href="https://help.sap.com/viewer/index"  
-                class="sapUiResponsiveMargin" 
-                target="_blank"
-                width="auto"/>
-        </headerContent>
-				<content>
-          <mvc:XMLView viewName="chuntian.PracticeHome.view.PracticeList"/>
-        </content>
-			</Page>
-		</pages>
-	</App>
+	<App id ="app"/>
 </mvc:View>
