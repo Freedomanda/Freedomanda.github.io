@@ -52,7 +52,7 @@
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
-        "viewPath": "chuntian.home.view",
+        "viewPath": "chuntian.home",
         "controlId": "chuntian",
         "controlAggregation": "pages",
         "async": true
@@ -67,28 +67,37 @@
           "pattern": "page1",
           "name": "page1",
           "target": "page1"
+        },
+        {
+          "pattern": "project_summary",
+          "name": "project_summary",
+          "target": "project_summary"
         }
       ],
       "targets": {
         "homepage": {
           "viewID": "homepage",
-          "viewName": "HomePage"
+          "viewName": "view.HomePage"
         },
         "page1": {
           "viewId": "page1",
-          "viewName": "Page1"
+          "viewName": "view.Page1"
         },
         "page2": {
           "viewId": "page2",
-          "viewName": "Page2"
+          "viewName": "view.Page2"
         },
         "page3": {
           "viewId": "page3",
-          "viewName": "Page1"
+          "viewName": "view.Page1"
         },
         "page4": {
           "viewId": "page4",
-          "viewName": "Page2"
+          "viewName": "view.Page2"
+        },
+        "project_summary": {
+          "viewId": "projectSummary",
+          "viewName": "Chunge_UI5.PracticsHome.view.PracticeList"
         }
       }
     }

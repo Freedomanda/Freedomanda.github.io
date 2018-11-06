@@ -9,8 +9,8 @@
         <Button
            icon="sap-icon://hello-world"
            press="onOpenDialog"/>
-        <Link text ="SAP Help Portal"
-              href="https://help.sap.com/viewer/index"
+        <Link text ="SAP UI5 - API Reference"
+              href="https://sapui5.netweaver.ondemand.com/sdk/#/api"
               class="sapUiResponsiveMargin"
               target="_blank"
               width="auto"/>
