@@ -40,19 +40,15 @@
                     app.back();
                 },
                 headerContent: new sap.m.Button({
-                    text: "SAP Labs China(DC)",
+                    text: "ABeam",
                     icon: "sap-icon://media-play",
                     press: function () {
-                        // navigate to page2
+                        // navigate to page3
                         app.to("page3");
                     }
                 }),
-                content: new sap.m.Button({
-                    text: "SAP Labs China(DC)",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page3");
-                    }
+                content: new sap.m.Text({
+                    text: "SAP Labs China(DC)"
                 }),
             });
             // Abeam
@@ -64,19 +60,15 @@
                     app.back();
                 },
                 headerContent: new sap.m.Button({
-                    text: "LATAM",
+                    text: "Saturn China",
                     icon: "sap-icon://media-play",
                     press: function () {
                         // navigate to page2
                         app.to("page4");
                     }
                 }),
-                content: new sap.m.Button({
-                    text: "LATAM",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page4");
-                    }
+                content: new sap.m.Text({
+                    text: "ABeam - LATAM"
                 })
             });
             // Saturn China
@@ -88,19 +80,15 @@
                     app.back();
                 },
                 headerContent: new sap.m.Button({
-                    text: "SAP Labs China(DC)",
+                    text: "Fuji Film",
                     icon: "sap-icon://media-play",
                     press: function () {
                         // navigate to page2
                         app.to("page5");
                     }
                 }),
-                content: new sap.m.Button({
-                    text: "SAP Labs China(DC)",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page5");
-                    }
+                content: new sap.m.Text({
+                    text: "Saturn China"
                 })
             });
             // Fuji Film
@@ -112,25 +100,32 @@
                     app.back();
                 },
                 headerContent: new sap.m.Button({
-                    text: "Fuji Film",
+                    text: "Atlas Copco",
                     icon: "sap-icon://media-play",
                     press: function () {
                         // navigate to page2
                         app.to("page6");
                     }
                 }),
-                content: new sap.m.Button({
-                    text: "Fuji Film",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page6");
-                    }
+                content: new sap.m.Text({
+                    text: "Fuji Film"
                 })
             });
             // Atlas Copco
             var page6 = new sap.m.Page("page6", {
                 title: "Atlas Copco",
                 showNavButton: true,
+                headerContent: new sap.m.Button({
+                    text: "Hand",
+                    icon: "sap-icon://home",
+                    press: function () {
+                        // navigate to page2
+                        app.to("page1");
+                    }
+                }),
+                content: new sap.m.Text({
+                    text: "Fuji Film"
+                }),
                 navButtonPress: function () {
                     // go back to the previous page
                     app.back();
