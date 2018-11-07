@@ -3,6 +3,7 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
+  
   <Panel headerText="{i18n>hpa3_hdtxt}" id ="SAPUI5" class="sapUiResponsiveMargin" width="auto">
     <headerToolbar>
       <Toolbar height="3rem">
@@ -22,4 +23,5 @@
     <Link text ="Fiori" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
   </Panel>
+
 </mvc:View>
