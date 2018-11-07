@@ -77,6 +77,16 @@
           "pattern": "helloworld",
           "name": "helloworld",
           "target": "helloworld"
+        },
+        {
+          "pattern": "DataBinding",
+          "name": "DataBinding",
+          "target": "DataBinding"
+        },
+        {
+          "pattern": "FilterToolbar",
+          "name": "FilterToolbar",
+          "target": "FilterToolbar"
         }
       ],
       "targets": {
@@ -87,6 +97,14 @@
         "helloworld": {
           "viewId": "helloworld",
           "viewName": "Practice.HelloWorld"
+        },
+        "DataBinding": {
+          "viewId": "DataBinding",
+          "viewName": "Practice.DataBinding"
+        },
+        "FilterToolbar": {
+          "viewId": "FilterToolbar",
+          "viewName": "Practice.FilterToolbar"
         }
       }
     }

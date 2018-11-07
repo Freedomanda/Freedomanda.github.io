@@ -9,7 +9,7 @@
       <Toolbar height="3rem">
         <Title text="{i18n>hpa2_hdtxt}"/>
         <ToolbarSpacer />
-        <Button text ="{i18n>download}" icon="sap-icon://download" press = "onShowHello" />
+        <Button text ="{i18n>download}" icon="sap-icon://download" press = "onDownLoad" />
       </Toolbar>
     </headerToolbar>
     <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" target="_blank"

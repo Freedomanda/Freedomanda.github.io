@@ -27,7 +27,22 @@ sap.ui.define([
         },
         onPress: function (oEvent) {
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            oRouter.navTo("helloworld");
+            var oItem = oEvent.getSource();
+            var path = oItem.getBindingContext("practice").getPath().split("/");
+            var toPage;
+            switch(path[2]){
+               case '0': toPage = "helloworld"; break;
+                case '1': toPage = "DataBinding"; break;
+                case '2': toPage = "FilterToolbar"; break;
+                case '3': toPage = "helloworld"; break;
+                default: toPage = '';
+            }
+            if (path) {
+                oRouter.navTo(toPage);
+            } else {
+                oRouter.navTo("NotFound");
+            };
+            
         }
 	});
 });
