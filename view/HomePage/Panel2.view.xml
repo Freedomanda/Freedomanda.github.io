@@ -8,8 +8,13 @@
       <Toolbar height="3rem">
         <Title text="{i18n>hpa2_hdtxt}"/>
         <ToolbarSpacer />
-        <Link text ="SAP UI5 - Samples"
-            href="https://sapui5.netweaver.ondemand.com/sdk/#/controls"
+        <Link text ="SAP Help"
+            href="https://help.sap.com/viewer/index"
+            class="sapUiResponsiveMargin"
+            target="_blank"
+            width="auto"/>
+        <Link text ="SCN"
+            href="https://www.sap.com/community.html"
             class="sapUiResponsiveMargin"
             target="_blank"
             width="auto"/>

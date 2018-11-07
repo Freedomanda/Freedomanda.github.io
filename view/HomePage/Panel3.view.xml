@@ -15,22 +15,11 @@
             width="auto"/>
       </Toolbar>
     </headerToolbar>    
-    <Link text ="SAPUI5 Demo - Hello World!" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="SAPUI5 Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
+    <Link text ="SAP UI5 - Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
-    <Button text ="{i18n>clickMe}" press = "onShowHello" />
-    <Input value ="{/recipient/name}"
-           description ="Hello {/recipient/name}(JSONModel)"
-           valueLiveUpdate="true"
-           width="60%"/>
-
-    <Button id="helloDialogButton"
-             text="{i18n>openDialogButtonText}"
-             icon="sap-icon://hello-world"
-             press="onOpenDialog"
-             class="sapUiSmallMarginEnd"/>
+    <Link text ="我的练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
+          class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="Fiori" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
+          target="_blank" class="sapUiResponsiveMargin" width="auto"/>
   </Panel>
 </mvc:View>

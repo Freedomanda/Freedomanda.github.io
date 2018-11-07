@@ -8,5 +8,35 @@
     <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  class="sapUiSmallMargin"/>
   </Panel>
+  <Panel headerText="Input_Button" id ="Pane1" class="sapUiResponsiveMargin" width="auto">
+    <Button text ="Click Me" press = "onShowHello" />
+    <Button id="helloDialogButton"
+             text="Show Dialog"
+             icon="sap-icon://hello-world"
+             press="onOpenDialog"
+             class="sapUiSmallMarginEnd"/>
+    <Input value ="{/recipient/name}"
+       description ="Hello {/recipient/name}(JSONModel)"
+       valueLiveUpdate="true"
+       width="60%"/>
+  </Panel>
+  <Panel headerText="Textfield" id ="Pane2" class="sapUiResponsiveMargin" width="auto">
+    <Input value ="{i18n>input1}"
+        description ="Hello {/recipient/name}(JSONModel)"
+        valueLiveUpdate="true"
+        width="60%"/>
+  </Panel>
+  <Panel headerText="List" id ="Pane3" class="sapUiResponsiveMargin" width="auto">
+    <Button text ="{i18n>button1}" press = "onShowHello" />
+    <Button id="xxx"
+              text="{i18n>button2 openDialogButtonText}"
+              icon="sap-icon://hello-world"
+              press="onOpenDialog"
+              class="sapUiSmallMarginEnd"/>
+    <Input value ="{/recipient/name}"
+        description ="Hello {/recipient/name}(JSONModel)"
+        valueLiveUpdate="true"
+        width="60%"/>
+  </Panel>    
   </Page>
 </mvc:View>
