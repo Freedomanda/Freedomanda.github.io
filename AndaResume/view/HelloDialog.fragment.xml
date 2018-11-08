@@ -6,9 +6,10 @@
      title="{i18n>dialogTitle}">
     <content>
       <core:Icon
-         src="sap-icon://hello-world"
-         size="6rem"
+         src="sap-icon://bar-code"
+         size="8rem"
          class="sapUiMediumMargin"/>
+       <Image src = ".source.wechat.png"/>
     </content>
     <beginButton>
       <Button

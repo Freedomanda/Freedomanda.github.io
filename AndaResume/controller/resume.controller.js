@@ -36,12 +36,15 @@ sap.ui.define([
                 case '2': toPage = "C40"; break;
                 default: toPage = 'Detail';
             }
-            if (toPage =="Detail") {
+            if (toPage === "Detail") {
                 oRouter.navTo(toPage, { projectID: oItem.getBindingContext("project").getProperty("ID")});
             } else {
                 oRouter.navTo(toPage);
-            };
+            }
             
+        },
+        onOpenDialog: function () {
+            this.getOwnerComponent().openHelloDialog();
         }
 	});
 });

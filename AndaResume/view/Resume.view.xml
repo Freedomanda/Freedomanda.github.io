@@ -7,9 +7,9 @@
     title="{i18n>title}">
     <headerContent>
       <Button
-         icon="sap-icon://hello-world"
+         icon="sap-icon://account"
          press="onOpenDialog"/>
-      <Link text ="SAP UI5 - API Reference"
+      <Link text ="Wu Changchun"
             href="https://sapui5.netweaver.ondemand.com/sdk/#/api"
             class="sapUiResponsiveMargin"
             target="_blank"
