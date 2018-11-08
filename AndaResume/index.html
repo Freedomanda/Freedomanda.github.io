@@ -1,143 +1,38 @@
-﻿<!DOCTYPE html>
+﻿<!DOCTYPE HTML>
 <html>
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <title>项目履历</title>
-    <script src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
-            id="sap-ui-bootstrap"
-            data-sap-ui-theme="sap_belize"
-            data-sap-ui-libs="sap.m">
-    </script>
-    <script type="text/javascript">
-        sap.ui.getCore().attachInit(function () {
-            // create a mobile app and display page1 initially
-            var app = new sap.m.App("myApp", {
-                initialPage: "page1"
-            });
-            // Hand
-            var page1 = new sap.m.Page("page1", {
-                title: "Hand",
-                showNavButton: false,
-                headerContent: new sap.m.Button({
-                    text: "SAP Labs China(DC)",
-                    icon: "sap-icon://media-play",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page2");
-                    }
-                }),
-                content: new sap.m.List({
-                    headerText: "Items"
-                })
-            });
-            // SAP Labs China
-            var page2 = new sap.m.Page("page2", {
-                title: "Hand",
-                showNavButton: true,
-                navButtonPress: function () {
-                    // go back to the previous page
-                    app.back();
-                },
-                headerContent: new sap.m.Button({
-                    text: "ABeam",
-                    icon: "sap-icon://media-play",
-                    press: function () {
-                        // navigate to page3
-                        app.to("page3");
-                    }
-                }),
-                content: new sap.m.Text({
-                    text: "SAP Labs China(DC)"
-                }),
-            });
-            // Abeam
-            var page3 = new sap.m.Page("page3", {
-                title: "ABeam",
-                showNavButton: true,
-                navButtonPress: function () {
-                    // go back to the previous page
-                    app.back();
-                },
-                headerContent: new sap.m.Button({
-                    text: "Saturn China",
-                    icon: "sap-icon://media-play",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page4");
-                    }
-                }),
-                content: new sap.m.Text({
-                    text: "ABeam - LATAM"
-                })
-            });
-            // Saturn China
-            var page4 = new sap.m.Page("page4", {
-                title: "Saturn China",
-                showNavButton: true,
-                navButtonPress: function () {
-                    // go back to the previous page
-                    app.back();
-                },
-                headerContent: new sap.m.Button({
-                    text: "Fuji Film",
-                    icon: "sap-icon://media-play",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page5");
-                    }
-                }),
-                content: new sap.m.Text({
-                    text: "Saturn China"
-                })
-            });
-            // Fuji Film
-            var page5 = new sap.m.Page("page5", {
-                title: "Fuji Film",
-                showNavButton: true,
-                navButtonPress: function () {
-                    // go back to the previous page
-                    app.back();
-                },
-                headerContent: new sap.m.Button({
-                    text: "Atlas Copco",
-                    icon: "sap-icon://media-play",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page6");
-                    }
-                }),
-                content: new sap.m.Text({
-                    text: "Fuji Film"
-                })
-            });
-            // Atlas Copco
-            var page6 = new sap.m.Page("page6", {
-                title: "Atlas Copco",
-                showNavButton: true,
-                headerContent: new sap.m.Button({
-                    text: "Hand",
-                    icon: "sap-icon://home",
-                    press: function () {
-                        // navigate to page2
-                        app.to("page1");
-                    }
-                }),
-                content: new sap.m.Text({
-                    text: "Fuji Film"
-                }),
-                navButtonPress: function () {
-                    // go back to the previous page
-                    app.back();
-                }
-            });
-            // add both pages to the app
-            app.addPage(page1).addPage(page2).addPage(page3).addPage(page4).addPage(page5).addPage(page6);
-            // place the app into the HTML document
-            app.placeAt("content");
-        });
-    </script>
-</head>
-<body class="sapUiBody" id="content">
-</body>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Anda CV</title>
+
+		<script id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-preload="async"
+			data-sap-ui-resourceroots='{"chuntian.resume": "./"}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						name : "chuntian.resume",
+						settings : {
+							id : "Resume"
+						}
+					})
+				}).placeAt("content");
+			});
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
 </html>

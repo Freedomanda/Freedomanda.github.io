@@ -7,14 +7,14 @@
   <Panel headerText="{i18n>hpa4_hdtxt}" class="sapUiResponsiveMargin" width="auto">
     <headerToolbar>
       <Toolbar height="3rem">
-        <Title text="{i18n>hpa2_hdtxt}"/>
+        <Title text="{i18n>hpa4_hdtxt}"/>
         <ToolbarSpacer />
         <Button text ="{i18n>download}" icon="sap-icon://download" press = "onDownLoad" />
       </Toolbar>
     </headerToolbar>
-    <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" target="_blank"
+    <Link text ="简历(中文)" href="./AndaResume/index.html" target="_blank"
           emphasized="true" class="sapUiResponsiveMargin"/>
-    <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  
+    <Link text ="Resume(EN)" href="./AndaResume/index.html"  
           target="_blank" class="sapUiSmallMargin"/>
   </Panel>
   

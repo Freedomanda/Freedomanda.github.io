@@ -1,0 +1,137 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "chuntian.resume",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}"
+	},
+
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+
+  "sap.ui5": {
+    "rootView": {
+      "viewName": "chuntian.resume.view.App",
+      "type": "XML",
+      "async": true,
+      "id": "app"
+    },
+    "dependencies": {
+      "minUI5Version": "1.30.0",
+      "libs": {
+        "sap.ui.core": {},
+        "sap.m": {},
+        "sap.ui.layout": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "chuntian.resume.i18n.i18n"
+        }
+      },
+      "project": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "Project.json"
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "chuntian.resume.view",
+        "controlId": "app",
+        "controlAggregation": "pages",
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "",
+          "name": "ResumeHome",
+          "target": "ResumeHome"
+        },
+        {
+          "pattern": "D10",
+          "name": "D10",
+          "target": "D10"
+        },
+        {
+          "pattern": "C50",
+          "name": "C50",
+          "target": "C50"
+        },
+        {
+          "pattern": "C40",
+          "name": "C40",
+          "target": "C40"
+        },
+        {
+          "pattern": "Detail/{projectID}/resume:?query?",
+          "name": "Detail",
+          "target": "Detail"
+        }
+      ],
+      "targets": {
+        "ResumeHome": {
+          "viewId": "ResumeHome",
+          "viewName": "Resume"
+        },
+        "D10": {
+          "viewId": "D10",
+          "viewName": "Project.D10"
+        },
+        "C50": {
+          "viewId": "C50",
+          "viewName": "Project.C50"
+        },
+        "C40": {
+          "viewId": "C40",
+          "viewName": "Project.C40"
+        },
+        "Detail": {
+          "viewId": "Detail",
+          "viewName": "Project.Detail"
+        },
+        "resumeTabHobbies": {
+          "parent": "Detail",
+          "viewId": "resumeHobbies",
+          "viewPath": "sap.ui.demo.nav.view.employee",
+          "viewName": "ResumeHobbies",
+          "controlId": "hobbiesTab",
+          "controlAggregation": "content"
+        },
+        "resumeTabOthers": {
+          "parent": "Detail",
+          "viewId": "resumeTabOthers",
+          "viewPath": "chuntian.resume.view.Project",
+          "viewName": "DetailOthers",
+          "controlId": "othersTab",
+          "controlAggregation": "content"
+        }
+      }
+    }
+  }
+}

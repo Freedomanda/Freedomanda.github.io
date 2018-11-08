@@ -1,0 +1,30 @@
+<mvc:View
+  controllerName="chuntian.resume.controller.Project.Detail"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Page title="{i18n>ProjectName} {Name}{ID}" showNavButton="true"  navButtonPress="onNavBack">
+    <IconTabBar
+    id="iconTabBar"
+    headerBackgroundDesign="Transparent"
+    class="sapUiResponsiveContentPadding"
+    binding="{Resume}"
+    select="onTabSelect"
+    selectedKey="selectedTabKey">
+      <items>
+        <IconTabFilter id="summaryTab" text="Project Summary" key="Info">
+          <Text text="{Information}" />
+        </IconTabFilter>
+        <IconTabFilter id="contributeTab" text="Contribution" key="Projects">
+          <mvc:XMLView viewName="chuntian.resume.view.Panel1"></mvc:XMLView>
+        </IconTabFilter>
+        <IconTabFilter id="skillsTab" text="ABAP Skills Involved" key="Hobbies">
+          <!-- place content via lazy loading -->
+        </IconTabFilter>
+        <IconTabFilter id="othersTab" text="Others" key="Notes">
+          <!-- place content via lazy loading -->
+        </IconTabFilter>
+      </items>
+    </IconTabBar>
+  </Page>
+</mvc:View>

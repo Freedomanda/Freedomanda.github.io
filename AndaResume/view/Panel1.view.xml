@@ -1,5 +1,4 @@
 <mvc:View
-  controllerName="chuntian.home.controller.HomePage.Panel1"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
