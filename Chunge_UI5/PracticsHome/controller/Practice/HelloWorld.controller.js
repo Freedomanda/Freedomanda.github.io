@@ -29,6 +29,13 @@
                 this.getRouter().navTo("PracticeHome", {}, true /*no history*/);
             }
         },
+        onSelectionChange: function (oEvent) {
+            //the selected item could be found via the "item" parameter of "selectionChange" event
+            sap.m.MessageToast.show("oEvent.getParameter('item').getText(): " + oEvent.getParameter("item").getText() + " selected");
+            //the selected item could also be found via the "selectItem" association not only when "selectionChange" but when needed
+            this.byId('selectedItem').setText("getSelectedItem(): " +
+                sap.ui.getCore().byId(this.byId('aSize').getSelectedItem()).getText());
+        },
         onShowHello: function () {
             // show a native JavaScript alert static
             //messageToast.show("点我干哈");

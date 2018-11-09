@@ -4,7 +4,21 @@
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
   <Page title="{i18n>Helloworld}" showNavButton="true"  navButtonPress="onNavBack">
-  <Panel headerText="Helloworld" id ="hello" class="sapUiResponsiveMargin" width="auto">
+    <subHeader>
+      <Toolbar>
+        <ToolbarSpacer/>
+        <SegmentedButton selectedKey="kids">
+          <items>
+            <SegmentedButtonItem text="若溪" key="kids" />
+            <SegmentedButtonItem text="雪萍" />
+            <SegmentedButtonItem text="思齐" />
+          </items>
+        </SegmentedButton>
+        <ToolbarSpacer/>
+      </Toolbar>
+    </subHeader>
+    <Panel headerText="Helloworld" id ="hello" class="sapUiResponsiveMargin" width="auto">
+    <Text id="selectedItem"/>
     <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  class="sapUiSmallMargin"/>
   </Panel>
@@ -37,6 +51,19 @@
         description ="Hello {/recipient/name}(JSONModel)"
         valueLiveUpdate="true"
         width="60%"/>
-  </Panel>    
+  </Panel>
+    <footer>
+      <Toolbar>
+        <ToolbarSpacer/>
+        <SegmentedButton selectedKey="small" id="aSize" selectionChange="onSelectionChange">
+          <items>
+            <SegmentedButtonItem text="Small" key="small" />
+            <SegmentedButtonItem text="Medium" />
+            <SegmentedButtonItem text="Large" />
+          </items>
+        </SegmentedButton>
+        <ToolbarSpacer/>
+      </Toolbar>
+    </footer>   
   </Page>
 </mvc:View>

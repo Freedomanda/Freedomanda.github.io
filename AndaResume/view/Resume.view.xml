@@ -1,6 +1,7 @@
 <mvc:View
    controllerName="chuntian.resume.controller.resume"
    xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
    xmlns:mvc="sap.ui.core.mvc">
   <Page
     id="page"
@@ -9,6 +10,7 @@
       <Button
          icon="sap-icon://account"
          press="onOpenDialog"/>
+      <Switch id="Langu" state="true" customTextOn="EN" customTextOff="ZH"></Switch>
       <Link text ="Wu Changchun"
             href="https://sapui5.netweaver.ondemand.com/sdk/#/api"
             class="sapUiResponsiveMargin"

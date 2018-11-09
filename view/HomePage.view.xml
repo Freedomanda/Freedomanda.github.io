@@ -7,7 +7,7 @@
         showNavButton="true" navButtonPress= "OnNav2Arial"
         navButtonTooltip ="{i18n>toArial}"
         navButtonText ="{i18n>Nav2Arial}"
-        icon ="sap-icon://account">
+        icon ="sap-icon://account">   
     <headerContent>
       <Button
         icon="sap-icon://hello-world"

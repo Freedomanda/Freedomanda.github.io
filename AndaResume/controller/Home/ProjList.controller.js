@@ -18,7 +18,17 @@ sap.ui.define([
             var aFilter = [];
             var sQuery = oEvent.getParameter("query");
             if (sQuery) {
-                aFilter.push(new Filter("Name",FilterOperator.Contains,sQuery));
+                var mFilter = new Filter(
+                    {
+                        filters: [new Filter({ path: "Name", operator:FilterOperator.Contains, value1:sQuery }),
+                            new Filter({ path:"Date", operator: FilterOperator.Contains, value1:sQuery }),
+                            new Filter({ path: "Description", operator: FilterOperator.Contains, value1: sQuery }),
+                            new Filter({ path: "Customer", operator: FilterOperator.Contains, value1: sQuery }),
+                            new Filter({ path: "Company", operator: FilterOperator.Contains, value1: sQuery })],
+                        and: false
+                    });
+                aFilter.push(mFilter);
+                //aFilter.push(new Filter("Name", FilterOperator.Contains, sQuery));
             }
             //filter binding
             var oList = this.byId("Project");
