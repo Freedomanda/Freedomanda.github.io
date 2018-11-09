@@ -1,0 +1,55 @@
+<mvc:View
+  controllerName="chuntian.resume.controller.Home.GenInfo"
+  xmlns="sap.m"
+	xmlns:c="sap.ui.core"
+	xmlns:t="sap.ui.table"
+	xmlns:f="sap.ui.layout.form"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Panel headerText ="{i18n>GenInfo_hdtxt}" id ="SourceCode" class="sapUiResponsiveMargin" width="auto">
+    <headerToolbar> 
+			<Toolbar height="3rem">
+        <Button text="{i18n>GenInfo_hdtxt}" icon="sap-icon://business-card" press="onPress1" />
+      </Toolbar>
+    </headerToolbar>
+    <content>
+      <VBox fitContainer="true">
+				<f:SimpleForm id="BasicInfo"
+					minWidth="1024"
+					maxContainerCols="2"
+					editable="false"
+					layout="ResponsiveGridLayout"
+					labelSpanL="4"
+					labelSpanM="4"
+					emptySpanL="0"
+					emptySpanM="0"
+					columnsL="2"
+					columnsM="2">
+					<f:content>
+            <c:Title text="Office" />
+						<Label text="{i18n>GenInfo_FNtxt}" />
+						<Text text="{i18n>GenInfo_FName}" />
+						<Label text="{i18n>GenInfo_LNtxt}" />
+						<Text text="{i18n>GenInfo_LName}" />
+						<Label text="{i18n>GenInfo_Bdtxt}" />
+						<Text text="{i18n>GenInfo_Birth}" />
+						<Label text="{i18n>GenInfo_Gdtxt}" />
+						<Text text="{i18n>GenInfo_Gender}" />
+            <c:Title text="Office" />
+						<Label text="{i18n>GenInfo_Emtxt}" />
+						<Text text="{i18n>GenInfo_Email}" />
+						<Label text="{i18n>GenInfo_RDtxt}" />
+						<Text text="{i18n>GenInfo_Resid}" />
+						<Label text="{i18n>GenInfo_HDtxt}" />
+						<Text text="{i18n>GenInfo_Hider}" />
+						<Label text="{i18n>GenInfo_Mjtxt}" />
+						<Text text="{i18n>GenInfo_Major}" />          
+					</f:content>
+					<f:layoutData>
+						<FlexItemData shrinkFactor="0" backgroundDesign="Solid" styleClass="sapContrastPlus"/>
+					</f:layoutData>
+				</f:SimpleForm>
+			</VBox>
+    </content>
+  </Panel>
+</mvc:View>

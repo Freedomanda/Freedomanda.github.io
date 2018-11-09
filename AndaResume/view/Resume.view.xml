@@ -17,46 +17,10 @@
     </headerContent>
 
     <content>
-      <List
-         id="Project"
-         headerText="{i18n>projectTitle}"
-         class="sapUiResponsiveMargin"
-         width="auto"
-         items="{path: 'project>/Project',
-                     sorter:
-                     {  path: 'Company',
-                        descending: true,
-                        group: true
-                            }
-                     }" >
-        <headerToolbar>
-          <Toolbar>
-            <Title text="{i18n>projectTitle}"/>
-            <ToolbarSpacer/>
-            <SearchField width="50%" search="onFilterProject"/>
-          </Toolbar>
-        </headerToolbar>
-        <items>
-          <ObjectListItem
-             title="{project>Name} : {project>Description}"
-                number="{
-			                  parts: [{path: 'project>Duration'}, {path: 'project>Unit'}],
-			                  type: 'sap.ui.model.type.Unit',
-			                  formatOptions: {
-				                  showMeasure: false
-			                  } }"
-        numberUnit="{project>Unit}"
-        numberState="{= ${project>Status} !== 'C' ? 'Error' : 'Success' }"
-        type ="Navigation"
-        press ="onPress">
-            <firstStatus>
-              <ObjectStatus text="{
-                      path:'project>Date'
-                      }"/>
-            </firstStatus>
-          </ObjectListItem>
-        </items>
-      </List>
+      <mvc:XMLView viewName="chuntian.resume.view.Home.GenInfo"/>
+      <mvc:XMLView viewName="chuntian.resume.view.Home.Education"/>
+      <mvc:XMLView viewName="chuntian.resume.view.Home.Career"/>
+      <mvc:XMLView viewName="chuntian.resume.view.Home.ProjList"/>
     </content>
   </Page>
 

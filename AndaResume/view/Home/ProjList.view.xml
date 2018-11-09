@@ -1,0 +1,52 @@
+<mvc:View
+  controllerName="chuntian.resume.controller.Home.ProjList"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <Panel headerText ="{i18n>ProjList_hdtxt}" id ="SourceCode" class="sapUiResponsiveMargin" width="auto">
+    <headerToolbar> 
+			<Toolbar height="3rem">
+        <Button text="{i18n>ProjList_hdtxt}" icon="sap-icon://activity-2" press="onPress1" />
+        <ToolbarSpacer/>
+        <SearchField width="50%" search="onFilterProject"/>
+			</Toolbar>
+    </headerToolbar>
+    <content>
+      <List
+          id="Project"
+          class="sapUiResponsiveMargin"
+          width="auto"
+          items="{path: 'project>/Project',
+                     sorter:
+                     [
+                       {  path: 'Company',
+                        descending: true,
+                        group: true
+                            } ,{  path: 'Date',
+                        descending: true
+                            }]
+                     }" >
+        <items>
+          <ObjectListItem
+             title="{project>Name} : {project>Description}"
+                number="{
+			                  parts: [{path: 'project>Duration'}, {path: 'project>Unit'}],
+			                  type: 'sap.ui.model.type.Unit',
+			                  formatOptions: {
+				                  showMeasure: false
+			                  } }"
+        numberUnit="{project>Unit}"
+        numberState="{= ${project>Status} !== 'C' ? 'Error' : 'Success' }"
+        type ="Navigation"
+        press ="onPress">
+            <firstStatus>
+              <ObjectStatus text="{
+                      path:'project>Date'
+                      }"/>
+            </firstStatus>
+          </ObjectListItem>
+        </items>
+      </List>
+    </content>
+  </Panel>
+</mvc:View>

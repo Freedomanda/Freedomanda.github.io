@@ -65,6 +65,7 @@
         "viewPath": "chuntian.resume.view",
         "controlId": "app",
         "controlAggregation": "pages",
+        "transition": "slide",
         "async": true
       },
       "routes": [
@@ -114,6 +115,10 @@
         "Detail": {
           "viewId": "Detail",
           "viewName": "Project.Detail"
+        },
+        "notFound": {
+          "viewId": "notFound",
+          "viewName": "NotFound"
         },
         "resumeTabHobbies": {
           "parent": "Detail",

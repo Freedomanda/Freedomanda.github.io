@@ -16,7 +16,7 @@
           <Text text="{Information}" />
         </IconTabFilter>
         <IconTabFilter id="contributeTab" text="Contribution" key="Projects">
-          <mvc:XMLView viewName="chuntian.resume.view.Panel1"></mvc:XMLView>
+
         </IconTabFilter>
         <IconTabFilter id="skillsTab" text="ABAP Skills Involved" key="Hobbies">
           <!-- place content via lazy loading -->

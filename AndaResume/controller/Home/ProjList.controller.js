@@ -6,7 +6,7 @@ sap.ui.define([
 ], function(Controller, formatter, Filter,FilterOperator) {
 	"use strict";
 
-	return Controller.extend("chuntian.resume.controller.Project", {
+	return Controller.extend("chuntian.resume.controller.Home.ProjList", {
 
 		formatter: formatter,
 
