@@ -1,23 +1,50 @@
 <mvc:View
   controllerName="chuntian.resume.controller.Home.Career"
   xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
+  xmlns:f="sap.ui.layout.form"
+  xmlns:c="sap.ui.core"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
   <Panel headerText="{i18n>Career_hdtxt}" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
     <headerToolbar>
       <Toolbar height="3rem">
         <Button text="{i18n>Career_hdtxt}" icon="sap-icon://company-view" press="onPress1" />
+        <ToolbarSpacer/>
+        <SegmentedButton selectedKey="CPG" selectionChange="onSelectionChange" id="Company">
+          <items>
+            <SegmentedButtonItem text="Capgemini" key="CPG" />
+            <SegmentedButtonItem text="Huashi"  key="HUS"/>
+            <SegmentedButtonItem text="Mingsi" key="MSI"/>
+            <SegmentedButtonItem text="Hand"   key="HND"/>
+          </items>
+        </SegmentedButton>
       </Toolbar>
-    </headerToolbar>    
-    <Link text ="{i18n>hpa2_itmtxt1}" href="./ArialResume/ArialResumeIndex.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt2}" href="./Chunge_UI5/HelloWorld/Helloworld.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt3}" href="./ArialResume/ArialResumeIndex.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt4}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt5}" href="./ArialResume/ArialResumeIndex.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/> 
+    </headerToolbar>
+    <VBox class="sapUiSmallMargin">
+      <f:SimpleForm id="jobinfo" editable ="false" layout ="ColumnLayout">
+        <f:content>
+          <Label id="companyLb" text="Company" />
+          <Text id="CampanyName" text="Capgemini China"/>
+          <Label id="PositionLb" text="Position" />
+          <Text id="Position" text="SAP ABAP consultant"/>
+          <Label id="TimeperiodLb" text="Timeperiod" />
+          <DateRangeSelection
+            id="DRS1"
+            delimiter="{path:'/delimiterDRS1'}"
+            dateValue="{path:'/dateValueDRS1'}"
+            secondDateValue="{path:'/secondDateValueDRS1'}"
+            displayFormat="{path:'/dateFormatDRS1'}"
+            editable="false"
+            change="handleChange"/>
+          <Label id="DescribeLb" text="Description" />
+          <TextArea id="desc" value="this is a test, come on sdfks slksd fslkj sldkfjs dflkjds flsdkjf sldfkjsd fkjd 
+                    sdfsdfsdfsdfsdfsdfsdfsdfkl34jl3kj434kj35j534j
+                    
+                    sdfsfjsoifeuoibnlksnflksjf[we[pwowiep
+                    spdoriupwejgijdsfjsdfsdf" growing="true" width="100%" editable="false"/>
+        </f:content>
+      </f:SimpleForm>
+    </VBox>  
   </Panel>
 </mvc:View>
