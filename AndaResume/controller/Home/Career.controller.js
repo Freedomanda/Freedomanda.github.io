@@ -1,4 +1,4 @@
-﻿sap.ui.define([
+sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "chuntian/resume/model/formatter",
     "sap/ui/model/Filter",
@@ -69,7 +69,7 @@
                 this.getRouter().navTo("resume", {}, true /*no history*/);
             }
         },
-        onSelectionChange: function (oEvent) {
+        onSelectionChange: function (oEvent){
             //the selected item could be found via the "item" parameter of "selectionChange" event
             //sap.m.MessageToast.show("oEvent.getParameter('item').getText(): " + oEvent.getParameter("item").getText() + " selected");
             //the selected item could also be found via the "selectItem" association not only when "selectionChange" but when needed
@@ -77,20 +77,24 @@
                 sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText());*/
             this.byId('CampanyName').setText( sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText() );
             switch (sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText()){
-                case "Capgemini":
-                    this.byId('Position').setText("SAP ABAP consultant"); break;
-                    this.byId('desc').setValue("The description of Capgemini"); break;
-                case "Huashi":
-                    this.byId('Position').setText("SAP ABAP Team leader"); break;
-                    this.byId('desc').setValue("The description of Huashi"); break;
-                case "Mingsi":
-                    this.byId('Position').setText("SAP ABAP consultant"); break;
-                    this.byId('desc').setValue("The description of Mingsi"); break;
-                case "Hand":
-                    this.byId('Position').setText("ERP development engineer"); break;
-                    this.byId('desc').setValue("The description of Hand"); break;
+                case "4":
+                	this.byId("CampanyName").setText("Capgemini China"); 
+                    this.byId("Position").setText("SAP ABAP consultant"); 
+                    this.byId("desc").setValue("The description of Capgemini"); break;
+                case "3":
+                	this.byId("CampanyName").setText("Huashi");
+                    this.byId("Position").setText("SAP ABAP Team leader");
+                    this.byId("desc").setValue("The description of Huashi"); break;
+                case "2":
+                	this.byId("CampanyName").setText("Mingsi");
+                    this.byId("Position").setText("SAP ABAP consultant"); 
+                    this.byId("desc").setValue("The description of Mingsi"); break;
+                case "1":
+                	this.byId("CampanyName").setText("Hand");
+                    this.byId("Position").setText("ERP development engineer");
+                    this.byId("desc").setValue("The description of Hand"); break;
                 default:
-                    this.byId('Position').setText("");
+                    this.byId("Position").setText("");
             }
         },
         onShowHello: function () {
