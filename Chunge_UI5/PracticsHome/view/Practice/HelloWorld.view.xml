@@ -1,7 +1,9 @@
 <mvc:View
   controllerName="chuntian.PracticeHome.controller.Practice.HelloWorld"
   xmlns="sap.m"
+  xmlns:l="sap.ui.layout"
   xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
   displayBlock="true">
   <Page title="{i18n>Helloworld}" showNavButton="true"  navButtonPress="onNavBack">
     <subHeader>
@@ -18,7 +20,6 @@
       </Toolbar>
     </subHeader>
     <Panel headerText="Helloworld" id ="hello" class="sapUiResponsiveMargin" width="auto">
-    <Text id="selectedItem"/>
     <Link text ="简历(中文)" href="./ArialResume/ArialResumeIndex.html" emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./ArialResume/ArialResumeIndex.html"  class="sapUiSmallMargin"/>
   </Panel>
@@ -34,11 +35,24 @@
        valueLiveUpdate="true"
        width="60%"/>
   </Panel>
+  <Panel headerText="Select" id ="Pane1" class="sapUiResponsiveMargin" width="auto">
+    <VBox>
+      <Select forceSelect="false" selectedKey="{}">
+        
+  
+      </Select>
+    </VBox>
+  </Panel>    
   <Panel headerText="Textfield" id ="Pane2" class="sapUiResponsiveMargin" width="auto">
     <Input value ="{i18n>input1}"
         description ="Hello {/recipient/name}(JSONModel)"
         valueLiveUpdate="true"
         width="60%"/>
+  <Text id="selectedItem"/>
+  <l:VerticalLayout class="sapUiContentPadding" width="100%">
+  <Text text="Degree Of Difficulty"/>
+  <Slider enableTickmarks="true" value ="3" width="33%" min="1" max="3" enable="false" class="sapUiMediumMarginBottom" />
+  </l:VerticalLayout>
   </Panel>
   <Panel headerText="List" id ="Pane3" class="sapUiResponsiveMargin" width="auto">
     <Button text ="{i18n>button1}" press = "onShowHello" />
@@ -54,6 +68,8 @@
   </Panel>
     <footer>
       <Toolbar>
+        <ToolbarSpacer/>
+        <ToolbarSpacer/>
         <ToolbarSpacer/>
         <SegmentedButton selectedKey="small" id="aSize" selectionChange="onSelectionChange">
           <items>

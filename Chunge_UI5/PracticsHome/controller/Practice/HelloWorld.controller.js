@@ -33,7 +33,7 @@
             //the selected item could be found via the "item" parameter of "selectionChange" event
             sap.m.MessageToast.show("oEvent.getParameter('item').getText(): " + oEvent.getParameter("item").getText() + " selected");
             //the selected item could also be found via the "selectItem" association not only when "selectionChange" but when needed
-            this.byId('selectedItem').setText("getSelectedItem(): " +
+            this.byId('selectedItem').setText("SegmentedButton" + "getSelectedItem(): " +
                 sap.ui.getCore().byId(this.byId('aSize').getSelectedItem()).getText());
         },
         onShowHello: function () {
