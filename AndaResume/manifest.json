@@ -90,7 +90,7 @@
           "target": "C40"
         },
         {
-          "pattern": "Detail/{projectID}/resume:?query?",
+          "pattern": "Detail/{projectID}/resume:?query:",
           "name": "Detail",
           "target": "Detail"
         }
@@ -114,18 +114,19 @@
         },
         "Detail": {
           "viewId": "Detail",
-          "viewName": "Project.Detail"
+          "viewName": "Project.Detail",
+          "transition": "flip"
         },
         "notFound": {
           "viewId": "notFound",
           "viewName": "NotFound"
         },
-        "resumeTabHobbies": {
+        "resumeTabSkills": {
           "parent": "Detail",
-          "viewId": "resumeHobbies",
-          "viewPath": "sap.ui.demo.nav.view.employee",
-          "viewName": "ResumeHobbies",
-          "controlId": "hobbiesTab",
+          "viewId": "resumeSkills",
+          "viewPath": "chuntian.resume.view.Project",
+          "viewName": "DetailSkills",
+          "controlId": "skillsTab",
           "controlAggregation": "content"
         },
         "resumeTabOthers": {

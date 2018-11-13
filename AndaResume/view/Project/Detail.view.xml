@@ -3,7 +3,7 @@
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
-  <Page title="{i18n>ProjectName} {Name}{ID}" showNavButton="true"  navButtonPress="onNavBack">
+  <Page title="{i18n>ProjectName} {project>Name}" showNavButton="true"  navButtonPress="onNavBack">
     <IconTabBar
     id="iconTabBar"
     headerBackgroundDesign="Transparent"
@@ -12,16 +12,16 @@
     select="onTabSelect"
     selectedKey="selectedTabKey">
       <items>
-        <IconTabFilter id="summaryTab" text="Project Summary" key="Info">
-          <Text text="{Information}" />
+        <IconTabFilter id="summaryTab" text="Project Summary" key="Summany">
+          <Text text="{project>Summary}" />
         </IconTabFilter>
-        <IconTabFilter id="contributeTab" text="Contribution" key="Projects">
-
+        <IconTabFilter id="contributeTab" text="Contribution" key="Contribute">
+          <Text text="{project>Contribution}" />
         </IconTabFilter>
-        <IconTabFilter id="skillsTab" text="ABAP Skills Involved" key="Hobbies">
+        <IconTabFilter id="skillsTab" text="ABAP Skills Involved" key="Skills">
           <!-- place content via lazy loading -->
         </IconTabFilter>
-        <IconTabFilter id="othersTab" text="Others" key="Notes">
+        <IconTabFilter id="othersTab" text="Others" key="Others">
           <!-- place content via lazy loading -->
         </IconTabFilter>
       </items>

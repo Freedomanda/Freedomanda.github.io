@@ -1,16 +1,34 @@
 <core:FragmentDefinition
    xmlns="sap.m"
+   xmlns:l="sap.ui.layout"
    xmlns:core="sap.ui.core" >
   <Dialog
      id="helloDialog"
-     title="{i18n>dialogTitle}">
+     contentHeight ="26%"
+     contentWidth="20%"
+     title="{i18n>dialogTitle}"
+     draggable="true"
+     icon="sap-icon://add-contact">
+
     <content>
-      <core:Icon
-         src="sap-icon://bar-code"
-         size="8rem"
-         class="sapUiMediumMargin"/>
-       <Image src = ".source.wechat.png"/>
+      <l:VerticalLayout>
+        <l:content>
+          <HBox>
+            <Image class="sapUiResponsive"
+                          src="./source/wechat_anda.png"
+                          description="wechat"
+                          width="50%"
+                          press="OnContact"></Image>
+            <Image class="sapUiResponsiveRight"
+                    src="./source/qq_anda.png"
+                    description="qq%"
+                    width="50%"
+                    press="OnContact"></Image>
+            </HBox>
+          </l:content>
+      </l:VerticalLayout>
     </content>
+     
     <beginButton>
       <Button
          text="{i18n>dialogCloseButtonText}"

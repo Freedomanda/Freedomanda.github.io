@@ -40,7 +40,10 @@ sap.ui.define([
             var oItem = oEvent.getSource();
             var path = oItem.getBindingContext("project").getPath().split("/");
             var id = oItem.getBindingContext("project").getProperty("ID");
-            var toPage;
+            var toPage = "Detail";
+            oRouter.navTo(toPage, { projectID: path[2] });
+
+            /*oRouter.navTo(toPage, { projectID: path[2] });
             switch (path[2]) {
                 case '0': toPage = "D10"; break;
                 case '1': toPage = "C50"; break;
@@ -49,16 +52,16 @@ sap.ui.define([
                 default: toPage = 'Detail';
             }
             if (toPage === "Detail") {
-                oRouter.navTo(toPage, { projectID: oItem.getBindingContext("project").getProperty("ID") });
+                oRouter.navTo(toPage, { projectID: path[2] });
             } else if (toPage === "notFound") {
                 // display the "notFound" target without changing the hash
                 /*oRouter.getTargets().display("notFound", {
                     fromTarget: "ResumeHome"
                 });*/
-                oRouter.navTo(toPage);
+                /*oRouter.navTo(toPage);
             } else {
                 oRouter.navTo(toPage);
-            }
+            }*/
             
         },
         onOpenDialog: function () {

@@ -8,15 +8,15 @@
   displayBlock="true">
   <Panel headerText="{i18n>Career_hdtxt}" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
     <headerToolbar>
-      <Toolbar height="3rem">
+      <Toolbar height="3rem" >
         <Button text="{i18n>Career_hdtxt}" icon="sap-icon://company-view" press="onPress1" />
-        <ToolbarSpacer/>
-        <SegmentedButton selectedKey="CPG" selectionChange="onSelectionChange" id="Company" class="sapUiSmallMargin">
+        <ToolbarSpacer height="3rem"/>
+        <SegmentedButton selectedKey="CPG" selectionChange="onSelectionChange" id="Company" class="sapUiResponsiveMargin">
           <items>
-            <SegmentedButtonItem text="4" key="CPG"  width="3rem" />
-            <SegmentedButtonItem text="3"  key="HUS"  width="3rem"/>
-            <SegmentedButtonItem text="2" key="MSI"  width="3rem"/>
-            <SegmentedButtonItem text="1"   key="HND" class="sapUiResponsiveMargin" width="3rem"/>
+            <SegmentedButtonItem text="4" key="CPG"  width="2.7rem" />
+            <SegmentedButtonItem text="3"  key="HUS"  width="2.7rem"/>
+            <SegmentedButtonItem text="2" key="MSI"  width="2.7rem"/>
+            <SegmentedButtonItem text="1"   key="HND" width="2.7rem"/>
           </items>
         </SegmentedButton>
       </Toolbar>
