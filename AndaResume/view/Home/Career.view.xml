@@ -25,24 +25,19 @@
       <f:SimpleForm id="jobinfo" editable ="false" layout ="ColumnLayout">
         <f:content>
           <Label id="companyLb" text="Company" />
-          <Text id="CampanyName" text="Capgemini China"/>
-          <Label id="PositionLb" text="Position" />
-          <Text id="Position" text="SAP ABAP consultant"/>
+          <Text id="CampanyName" text="{project>CompanyName}"/>
           <Label id="TimeperiodLb" text="Timeperiod" />
           <DateRangeSelection
             id="DRS1"
-            delimiter="{path:'/delimiterDRS1'}"
-            dateValue="{path:'/dateValueDRS1'}"
-            secondDateValue="{path:'/secondDateValueDRS1'}"
-            displayFormat="{path:'/dateFormatDRS1'}"
-            editable="false"
-            change="handleChange"/>
+            delimiter="{path:'/delimiter'}"
+            dateValue="{path:'/dateValue'}"
+            secondDateValue="{path:'/secondDateValue'}"
+            displayFormat="{path:'/dateFormat'}"
+            editable="false"/>
+          <Label id="PositionLb" text="Position" />
+          <Text id="Position" text="{project>Position}"/>
           <Label id="DescribeLb" text="Description" />
-          <TextArea id="desc" value="this is a test, come on sdfks slksd fslkj sldkfjs dflkjds flsdkjf sldfkjsd fkjd 
-                    sdfsdfsdfsdfsdfsdfsdfsdfkl34jl3kj434kj35j534j
-                    
-                    sdfsfjsoifeuoibnlksnflksjf[we[pwowiep
-                    spdoriupwejgijdsfjsdfsdf" growing="true" width="100%" editable="false"/>
+          <TextArea id="desc" value="{project>Description}" growing="true" width="100%" editable="false" valueLiveUpdate="true"/>
         </f:content>
       </f:SimpleForm>
     </VBox>  

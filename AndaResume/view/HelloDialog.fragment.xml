@@ -4,25 +4,24 @@
    xmlns:core="sap.ui.core" >
   <Dialog
      id="helloDialog"
-     contentHeight ="26%"
-     contentWidth="20%"
      title="{i18n>dialogTitle}"
      draggable="true"
+     class="sapUiResponsive"
      icon="sap-icon://add-contact">
-
+  
     <content>
       <l:VerticalLayout>
         <l:content>
           <HBox>
-            <Image class="sapUiResponsive"
+            <Image class="sapUiResponsive sapUiResopnsiveMargin"
                           src="./source/wechat_anda.png"
                           description="wechat"
-                          width="50%"
+                          width="80%"
                           press="OnContact"></Image>
-            <Image class="sapUiResponsiveRight"
+            <Image class="sapUiResponsiveRight sapUiResopnsiveMargin"
                     src="./source/qq_anda.png"
-                    description="qq%"
-                    width="50%"
+                    description="qq"
+                    width="80%"
                     press="OnContact"></Image>
             </HBox>
           </l:content>

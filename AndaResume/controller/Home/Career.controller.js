@@ -14,28 +14,34 @@ sap.ui.define([
 
         onInit: function () {
             var dateFrom = new Date();
-            dateFrom.setUTCDate(2);
-            dateFrom.setUTCMonth(1);
-            dateFrom.setUTCFullYear(2014);
+            dateFrom.setUTCDate(5);
+            dateFrom.setUTCMonth(3);
+            dateFrom.setUTCFullYear(2018);
 
             var dateTo = new Date();
-            dateTo.setUTCDate(17);
-            dateTo.setUTCMonth(1);
-            dateTo.setUTCFullYear(2014);
 
             var oModel = new JSONModel();
             oModel.setData({
-                delimiterDRS1: "-",
-                dateValueDRS1: dateFrom,
-                secondDateValueDRS1: dateTo,
-                dateFormatDRS1: "yyyy/MM/dd",
-                dateValueDRS2: new Date(2016, 1, 16),
-                secondDateValueDRS2: new Date(2016, 1, 18),
-                dateMinDRS2: new Date(2016, 0, 1),
-                dateMaxDRS2: new Date(2016, 11, 31)
+                delimiter: "  to   ",
+                dateValue: dateFrom,
+                secondDateValue: dateTo,
+                dateFormat: "yyyy/MM/dd",
             });
             this.getView().setModel(oModel);
 
+            var oView = this.getView();
+            oView.bindElement({
+                path: "project>/Job/3",
+                events: {
+                    change: this._onBindingChange.bind(this),
+                    dataRequested: function (oEvent) {
+                        oView.setBusy(true);
+                    },
+                    dataReceived: function (oEvent) {
+                        oView.setBusy(false);
+                    }
+                }
+            });
             this._iEvent = 0;
         },
         onPress: function (oEvent) {
@@ -75,8 +81,41 @@ sap.ui.define([
             //the selected item could also be found via the "selectItem" association not only when "selectionChange" but when needed
             /*this.byId('CampanyName').setText("SegmentedButton" + "getSelectedItem(): " +
                 sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText());*/
-            this.byId('CampanyName').setText( sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText() );
-            switch (sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText()){
+            //this.byId('CampanyName').setText(sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText());
+            var selectValue = sap.ui.getCore().byId(this.byId('Company').getSelectedItem()).getText();
+            var jobIndex = selectValue - 1.
+            var oView = this.getView();
+            oView.bindElement({
+                path: "project>/Job/" + jobIndex,
+                events: {
+                    change: this._onBindingChange.bind(this),
+                    dataRequested: function (oEvent) {
+                        oView.setBusy(true);
+                    },
+                    dataReceived: function (oEvent) {
+                        oView.setBusy(false);
+                    }
+                }
+            });
+            var dateValue = oEvent.getSource().getBindingContext("project").getProperty("dateValue");
+            var secondDateValue = oEvent.getSource().getBindingContext("project").getProperty("secondDateValue");
+            var dateFrom = new Date(dateValue);
+            if (secondDateValue === "9999/12/31") {
+                var dateTo = new Date( );
+            } else {
+                var dateTo = new Date(secondDateValue);
+            };
+
+            var oModel = new JSONModel();
+            oModel.setData({
+                delimiter: "  to   ",
+                dateValue: dateFrom,
+                secondDateValue: dateTo,
+                dateFormat: "yyyy/MM/dd",
+            });
+            this.getView().setModel(oModel);
+
+            /*switch(selectValue){
                 case "4":
                 	this.byId("CampanyName").setText("Capgemini China"); 
                     this.byId("Position").setText("SAP ABAP consultant"); 
@@ -95,6 +134,12 @@ sap.ui.define([
                     this.byId("desc").setValue("The description of Hand"); break;
                 default:
                     this.byId("Position").setText("");
+            }*/
+        },
+        _onBindingChange: function (oEvent) {
+            // No data for the binding
+            if (!this.getView().getBindingContext()) {
+                //this.getRouter().getTargets().display("notFound");
             }
         },
         onShowHello: function () {
