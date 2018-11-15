@@ -1,4 +1,5 @@
 ﻿{
+  "DateDelimiter": " bbbbb",
   "Project": [
     {
       "Company": "[4]凯捷中国(自由职业) - Capgemini China(Freelance)",
@@ -293,7 +294,7 @@
       "CompanyName": "Hand",
       "Position": "ERP development engineer",
       "Description": "Role as sofeware developer and FI consultant. \n On one hand, use the programing language [Oracle PL/SQL] [SAP ABAP] to make corresponding;\n On the other hand, join a Oracle EBS R12 implmentatoin project as FI Consultant. The ABAP progects are mainly Janpanese Offshore project, while Oracle EBS project are local ones.",
-      "delimiter": "-",
+      "delimiter": "  -  ",
       "dateValue": "2008/12/01",
       "secondDateValue": "2011/03/11",
       "dateFormat": "yyyy/MM/dd"
@@ -303,7 +304,7 @@
       "CompanyName": "Mingsi",
       "Position": "SAP ABAP consultant",
       "Description": "Onsite developement to server the customer [SAP Labs China]. Invovled in a Global project, which responsible to develop a SAP product per user requirment",
-      "delimiter": "-",
+      "delimiter": "  -  ",
       "dateValue": "2011/04/12",
       "secondDateValue": "2011/10/18",
       "dateFormat": "yyyy/MM/dd"
@@ -313,7 +314,7 @@
       "CompanyName": "Huashi",
       "Position": "SAP ABAP Team leader",
       "Description": "Onsite service to clients as ABAPer Leader. They are [General Mills],[ABeam Consulting],[General Mills],[Fuji Film],[Atlas Copco]. The majority of projects are global project.",
-      "delimiter": "-",
+      "delimiter": "  -  ",
       "dateValue": "2011/10/20",
       "secondDateValue": "2018/07/06",
       "dateFormat": "yyyy/MM/dd"
@@ -323,7 +324,7 @@
       "CompanyName": "Capgemini China",
       "Position": "SAP ABAP consultant",
       "Description": "Work on SAP Labs Chins(GS), refactor existing program, support customer, design and implement new customer story. Involving the latest development model and technologies, such as ABAP CDS, New ABAP, Scrum, HANA Modeling...",
-      "delimiter": "-",
+      "delimiter": "  -  ",
       "dateValue": "2018/07/09",
       "secondDateValue": "9999/12/31",
       "dateFormat": "yyyy/MM/dd"

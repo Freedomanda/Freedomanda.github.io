@@ -13,6 +13,20 @@ sap.ui.define([
         formatter: formatter,
 
         onInit: function () {
+            var oView = this.getView();
+            oView.bindElement({
+                path: "project>/Job/3",
+                events: {
+                    change: this._onBindingChange.bind(this),
+                    dataRequested: function (oEvent) {
+                        oView.setBusy(true);
+                    },
+                    dataReceived: function (oEvent) {
+                        oView.setBusy(false);
+                    }
+                }
+            });
+
             var dateFrom = new Date();
             dateFrom.setUTCDate(5);
             dateFrom.setUTCMonth(3);
@@ -28,20 +42,6 @@ sap.ui.define([
                 dateFormat: "yyyy/MM/dd",
             });
             this.getView().setModel(oModel);
-
-            var oView = this.getView();
-            oView.bindElement({
-                path: "project>/Job/3",
-                events: {
-                    change: this._onBindingChange.bind(this),
-                    dataRequested: function (oEvent) {
-                        oView.setBusy(true);
-                    },
-                    dataReceived: function (oEvent) {
-                        oView.setBusy(false);
-                    }
-                }
-            });
             this._iEvent = 0;
         },
         onPress: function (oEvent) {
@@ -99,6 +99,8 @@ sap.ui.define([
             });
             var dateValue = oEvent.getSource().getBindingContext("project").getProperty("dateValue");
             var secondDateValue = oEvent.getSource().getBindingContext("project").getProperty("secondDateValue");
+            var dateDelimiter = oEvent.getSource().getBindingContext("project").getProperty("delimiter");
+            var dateFormat = oEvent.getSource().getBindingContext("project").getProperty("dateFormat");
             var dateFrom = new Date(dateValue);
             if (secondDateValue === "9999/12/31") {
                 var dateTo = new Date( );
@@ -108,10 +110,10 @@ sap.ui.define([
 
             var oModel = new JSONModel();
             oModel.setData({
-                delimiter: "  to   ",
+                delimiter: dateDelimiter,
                 dateValue: dateFrom,
                 secondDateValue: dateTo,
-                dateFormat: "yyyy/MM/dd",
+                dateFormat: dateFormat,
             });
             this.getView().setModel(oModel);
 

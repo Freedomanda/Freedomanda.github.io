@@ -29,7 +29,7 @@
           <Label id="TimeperiodLb" text="Timeperiod" />
           <DateRangeSelection
             id="DRS1"
-            delimiter="{path:'/delimiter'}"
+            delimiter="{path: '/delimiter'}"
             dateValue="{path:'/dateValue'}"
             secondDateValue="{path:'/secondDateValue'}"
             displayFormat="{path:'/dateFormat'}"
