@@ -1,6 +1,9 @@
 <mvc:View
   controllerName="chuntian.resume.controller.Home.Education"
   xmlns="sap.m"
+  xmlns:c="sap.ui.core"
+	xmlns:t="sap.ui.table"
+	xmlns:f="sap.ui.layout.form"
   xmlns:mvc="sap.ui.core.mvc"
   displayBlock="true">
   
@@ -10,12 +13,13 @@
         <Button text="{i18n>Education_hdtxt}" icon="sap-icon://study-leave" press="onPress1" />
       </Toolbar>
     </headerToolbar>    
-    <Link text ="SAP UI5 - Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
-          target="_blank" class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="我的练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="Fiori" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
-          target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+    <content>
+			<Label text="{i18n>Education_Sctxt}" />
+			<Text text="{i18n>Education_Schol}" />            
+			<Label text="{i18n>Education_Titxt}" />
+			<Text text="{i18n>Education_Timel}" />
+			<Label text="{i18n>Education_Mjtxt}" />
+			<Text text="{i18n>Education_Major}" />         
+    </content>
   </Panel>
-
 </mvc:View>
