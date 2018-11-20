@@ -1,5 +1,5 @@
 ﻿{
-  "DateDelimiter": " bbbbb",
+  "DateDelimiter": " - ",
   "Project": [
     {
       "Company": "[4]凯捷中国(自由职业) - Capgemini China(Freelance)",
@@ -12,11 +12,11 @@
       "Name": "Digital Account Localization",
       "Status": "B",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
+        "The project not work like a traditional ABAP development mode",
+        "but popular product development mode - Scrum. As ABAPer",
+        " responsible for the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
       ],
       "Skills": {
         "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
@@ -35,12 +35,14 @@
       "Name": "VTBA",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Atlas Copco have a new business area in Russia want involve SAP which not leverage SAP System as main ERP system. We use the ATLAS COPCO template SEED to make a quick roll-out.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Main role as ABAPer, create new report, implement new enhancement per the VTBA Organization, technical support functionality analyst and key users, setup new users and new roles per new VTBA organizatoin."
+      ],
+      "Skills": {
+        "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,ALV",
+        "Business": "SD,MM,FI,CS(PM)"
+      }
 
     },
     {
@@ -54,18 +56,20 @@
       "Name": "Epiroc",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Atlas Copco Group split and create a new company Epiroc, which including some BAs like MR and CR. A new company Epiroc created in currently system.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Main role as ABAPer Leader, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. Coordinate our ABAPer Team with functionality analystS and users."
+      ],
+      "Skills": {
+        "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,,ALV",
+        "Business": "SD,MM,FI,CS(PM)"
+      }
 
     },
     {
       "Company": "[3]华时信息咨询 - Huashi Info",
       "Date": "2016/10",
-      "Description": "Split Brand Dynapac to another Company code Dynapac",
+      "Description": "Dynapac Split",
       "Customer": "Atlas Copco",
       "Duration": "5",
       "ID": "C60",
@@ -73,14 +77,14 @@
       "Name": "Dynapac",
       "Status": "C",
       "Unit": "Months",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to Atlas Copco for 1 years at least. However, the operation should be ran in a new company code.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
-
-
+        "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. Trainning the enduser, collecting master data, migrating transation data and routine technical issues."
+      ],
+      "Skills": {
+        "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,ALV",
+        "Business": "SD,MM,FI,CS(PM)"
+      }
     },
     {
       "Company": "[3]华时信息咨询 - Huashi Info",
@@ -93,12 +97,14 @@
       "Name": "Nanjing MR",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Atlas Copco want run its Mining and Rocking Busniess(MR Nanjing) indepently in China, new organization setup and data migrat to new organization.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Main role as ABAPer, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. "
+      ],
+      "Skills": {
+        "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,ALV",
+        "Business": "SD,MM,FI,CS(PM)"
+      }
 
     },
     {
@@ -114,10 +120,12 @@
       "Unit": "Year",
       "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Technical support to functionality analyst and key users all around the world, including Russia, China, USA. Provide solution per user requiremnt, bug fixing of current program. "
+      ],
+      "Skills": {
+        "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,RFC,WorkFlow,ALV",
+        "Business": "SD,MM,FI,CS(PM)"
+      }
 
     },
     {
@@ -131,37 +139,41 @@
       "Name": "Latam NEC",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "It's an offshore project, which follow Japanese project model, and work language is English",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Role as ABAPer. Programming per the FS from functionality analyst, making UT and IT, creat corresponding documentations including TS, UT Evidence and so on"
+      ],
+      "Skills": {
+        "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
+        "Business": "FI,MM"
+      }
 
     },
     {
       "Company": "[3]华时信息咨询 - Huashi Info",
       "Date": "2012/04",
       "Description": "Fuji Film AP/AR report and trouble shoorting",
-      "Customer": "General Mills",
+      "Customer": "Fuji Film",
       "Duration": "2",
       "ID": "C20",
       "Level": "Junior",
       "Name": "FFCN",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Onsite technical support",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Main work on new AP/AR reprot, and help to analyse backlogs on their hands."
+      ],
+      "Skills": {
+        "Technical": "ABAP Query,DIALOG,ALV,Enhancement",
+        "Business": "FI,SD,MM"
+      }
 
     },
     {
       "Company": "[3]华时信息咨询 - Huashi Info",
       "Date": "2011/11",
-      "Description": "Routine support to the Atlas Copco Group",
+      "Description": "Great China Rollout",
       "Customer": "General Mills",
       "Duration": "5",
       "ID": "C10",
@@ -169,18 +181,20 @@
       "Name": "Saturn China",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Rollout of Greate China, including China mainland, Hongkong and Taiwan",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "Mainly role is CS(Customer Service) Consultant, and coordinate the"
+      ],
+      "Skills": {
+        "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
+        "Business": "SD,FI"
+      }
 
     },
     {
       "Company": "[2]明思科技 - Mingsi Technology",
       "Date": "2011/03",
-      "Description": "Add the SearchField for filter",
+      "Description": "Production development in namespace /SEC/",
       "Customer": "SAP Labs China(CD)",
       "Duration": "7",
       "ID": "B10",
@@ -188,12 +202,30 @@
       "Name": "KMD - UI Security Logging",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "KMD is the customer of SAP Group in Danmark, with very high security policy level. SAP take cusomter solution and rebuilt it in SAP as a new security product. We responsible to implement the product and customer incident.",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the",
-        "sfsdfsdf",
-        "sdfsdfsdfsdf"
-      ]
+        "As a team member, was responsible for",
+        "•",
+        "BSP",
+        "logging",
+        "development",
+        "•",
+        "SAP",
+        "GUI/CRM",
+        "maintenance",
+        "•",
+        "Unit",
+        "Testing",
+        "and",
+        "Module",
+        "Integrate",
+        "Test",
+        "\""
+      ],
+      "Skills": {
+        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
+        "Business": "Hybirs Marketing, EDocument,SD,FI"
+      }
 
     },
     {
@@ -212,7 +244,11 @@
         "Mainly role is CS(Customer Service) Consultant, and coordinate the",
         "sfsdfsdf",
         "sdfsdfsdfsdf"
-      ]
+      ],
+      "Skills": {
+        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
+        "Business": "Hybirs Marketing, EDocument,SD,FI"
+      }
 
     },
     {
@@ -231,7 +267,11 @@
         "Mainly role is CS(Customer Service) Consultant, and coordinate the",
         "sfsdfsdf",
         "sdfsdfsdfsdf"
-      ]
+      ],
+      "Skills": {
+        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
+        "Business": "Hybirs Marketing, EDocument,SD,FI"
+      }
 
     },
     {

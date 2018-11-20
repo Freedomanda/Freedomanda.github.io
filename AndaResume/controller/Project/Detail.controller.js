@@ -84,11 +84,11 @@
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
             oHistory = History.getInstance();
             sPreviousHash = oHistory.getPreviousHash();
-            if (sPreviousHash !== undefined) {
-                window.history.go(-1);
-            } else {
+            //if (sPreviousHash !== undefined) {
+            //    window.history.go(-1);
+            //} else {
                 oRouter.navTo("resume", {}, true /*no history*/);
-            }
+            //}
         },
         onShowHello: function () {
             // show a native JavaScript alert static
