@@ -15,7 +15,7 @@
       "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
       "Contribution": [
         "The project not work like a traditional ABAP development mode",
-        "but popular product development mode - Scrum. As ABAPer",
+        "but popular product development mode - Agile Development. As ABAPer",
         " responsible for the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
       ],
       "Skills": {

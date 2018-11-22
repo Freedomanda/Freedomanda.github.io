@@ -20,7 +20,7 @@
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
     <Link text ="我的练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
           class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="Fiori" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
+    <Link text ="Fiori" href="https://ux.wdf.sap.corp/fiori-design-web/"
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
   </Panel>
 
