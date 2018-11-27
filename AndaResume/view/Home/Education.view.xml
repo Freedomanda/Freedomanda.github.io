@@ -14,12 +14,23 @@
       </Toolbar>
     </headerToolbar>    
     <content>
-			<Label text="{i18n>Education_Sctxt}" />
-			<Text text="{i18n>Education_Schol}" />            
-			<Label text="{i18n>Education_Titxt}" />
-			<Text text="{i18n>Education_Timel}" />
-			<Label text="{i18n>Education_Mjtxt}" />
-			<Text text="{i18n>Education_Major}" />         
+      <Table id="educateList" inset="false" items="{path: 'project>/Education',
+                     sorter: {  path: 'ID'}   }">
+        <columns>
+          <Column class="sapUiResponsiveMargin"> <Text text="Name" /> </Column>
+          <Column class="sapUiResponsiveMargin"> <Text text="Timeline" /> </Column>
+          <Column width="12em" class="sapUiResponsiveMargin"> <Text text="Subject" /> </Column>
+        </columns>
+        <items>
+        <ColumnListItem>  
+            <cells>
+              <Text text="{project>SchoolName}" />
+              <Text text="{project>timeLine}" />
+              <Text text="{project>Suject}" />
+            </cells>
+        </ColumnListItem> 
+        </items>
+      </Table>        
     </content>
   </Panel>
 </mvc:View>
