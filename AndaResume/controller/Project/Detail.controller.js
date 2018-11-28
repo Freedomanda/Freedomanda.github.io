@@ -87,7 +87,7 @@
             //if (sPreviousHash !== undefined) {
             //    window.history.go(-1);
             //} else {
-                oRouter.navTo("resume", {}, true /*no history*/);
+            oRouter.navTo("ResumeHome", {}, true /*no history*/);
             //}
         },
         onShowHello: function () {

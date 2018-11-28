@@ -15,15 +15,15 @@
     <content>
       <VBox fitContainer="true">
 				<f:SimpleForm id="BasicInfo"
-					maxContainerCols="8"
+					maxContainerCols="4"
 					editable="false"
 					layout="ColumnLayout"
 					labelSpanL="4"
 					labelSpanM="4"
 					emptySpanL="0"
 					emptySpanM="0"
-					columnsL="8"
-					columnsM="8">
+					columnsL="4"
+					columnsM="4">
 					<f:content>
 						<Label text="{i18n>GenInfo_FNtxt}" />
 						<Text text="{i18n>GenInfo_FName}" />

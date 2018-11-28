@@ -2,16 +2,16 @@
   "DateDelimiter": " - ",
   "Project": [
     {
-      "Company": "[4]凯捷中国(自由职业) - Capgemini China(Freelance)",
+      "Company": "[4]凯捷中国(自由职业)",
       "Date": "2018/07",
       "Description": "Hybris Marketing China Localization",
       "Customer": "SAP Labs China - GS",
       "Duration": "4",
       "ID": "D10",
       "Level": "Junior",
-      "Name": "Digital Account Localization",
+      "Name": "数字账号本地化",
       "Status": "B",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
       "Contribution": [
         "The project not work like a traditional ABAP development mode",
@@ -25,17 +25,17 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2018/01",
       "Description": "New Business Area VTBA setup",
-      "Customer": "Atlas Copco",
+      "Customer": "阿特拉斯.柯普科",
       "Duration": "2",
       "ID": "C80",
       "Level": "Middle",
       "Name": "VTBA",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco have a new business area in Russia want involve SAP which not leverage SAP System as main ERP system. We use the ATLAS COPCO template SEED to make a quick roll-out.",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科 have a new business area in Russia want involve SAP which not leverage SAP System as main ERP system. We use the 阿特拉斯.柯普科 template SEED to make a quick roll-out.",
       "Contribution": [
         "Main role as ABAPer, create new report, implement new enhancement per the VTBA Organization, technical support functionality analyst and key users, setup new users and new roles per new VTBA organizatoin."
       ],
@@ -46,17 +46,17 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2017/03",
-      "Description": "New independent Comapny Epiroc form Atlas Copco",
-      "Customer": "Atlas Copco",
+      "Description": "New independent Comapny Epiroc form 阿特拉斯.柯普科",
+      "Customer": "阿特拉斯.柯普科",
       "Duration": "4",
       "ID": "C70",
       "Level": "Junior",
       "Name": "Epiroc",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco Group split and create a new company Epiroc, which including some BAs like MR and CR. A new company Epiroc created in currently system.",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科 Group split and create a new company Epiroc, which including some BAs like MR and CR. A new company Epiroc created in currently system.",
       "Contribution": [
         "Main role as ABAPer Leader, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. Coordinate our ABAPer Team with functionality analystS and users."
       ],
@@ -67,17 +67,17 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2016/10",
       "Description": "Dynapac Split",
-      "Customer": "Atlas Copco",
+      "Customer": "阿特拉斯.柯普科",
       "Duration": "5",
       "ID": "C60",
       "Level": "Junior",
       "Name": "Dynapac",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to Atlas Copco for 1 years at least. However, the operation should be ran in a new company code.",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to 阿特拉斯.柯普科 for 1 years at least. However, the operation should be ran in a new company code.",
       "Contribution": [
         "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. Trainning the enduser, collecting master data, migrating transation data and routine technical issues."
       ],
@@ -87,17 +87,17 @@
       }
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2015/04",
-      "Description": "Split Mining and Rocking Busniess to a new indepent company code",
-      "Customer": "Atlas Copco",
+      "Description": "从阿特拉斯.柯普科的业务范围内拆分出南京的部分业务",
+      "Customer": "阿特拉斯.柯普科",
       "Duration": "7",
       "ID": "C50",
       "Level": "Junior",
-      "Name": "Nanjing MR",
+      "Name": "南京矿山与挖掘技术",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco want run its Mining and Rocking Busniess(MR Nanjing) indepently in China, new organization setup and data migrat to new organization.",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科希望把他的矿山与挖掘技术（MR）业务在中国独立运营核算。在SAP 系统中建立新的公司代码，组织架构。",
       "Contribution": [
         "Main role as ABAPer, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. "
       ],
@@ -108,17 +108,17 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2013/02",
-      "Description": "Routine support to the Atlas Copco Group",
-      "Customer": "Atlas Copco",
+      "Description": "Routine support to the 阿特拉斯.柯普科 Group",
+      "Customer": "阿特拉斯.柯普科",
       "Duration": "5.5",
       "ID": "C40",
       "Level": "Junior",
       "Name": "ABAP Technical Support",
       "Status": "C",
-      "Unit": "Year",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Unit": "年",
+      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
         "Technical support to functionality analyst and key users all around the world, including Russia, China, USA. Provide solution per user requiremnt, bug fixing of current program. "
       ],
@@ -129,7 +129,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2012/06",
       "Description": "Latin American Offshore Project",
       "Customer": "ABeam",
@@ -138,7 +138,7 @@
       "Level": "Junior",
       "Name": "Latam NEC",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "It's an offshore project, which follow Japanese project model, and work language is English",
       "Contribution": [
         "Role as ABAPer. Programming per the FS from functionality analyst, making UT and IT, creat corresponding documentations including TS, UT Evidence and so on"
@@ -150,7 +150,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2012/04",
       "Description": "Fuji Film AP/AR report and trouble shoorting",
       "Customer": "Fuji Film",
@@ -159,7 +159,7 @@
       "Level": "Junior",
       "Name": "FFCN",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "Onsite technical support",
       "Contribution": [
         "Main work on new AP/AR reprot, and help to analyse backlogs on their hands."
@@ -171,7 +171,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]华时信息咨询",
       "Date": "2011/11",
       "Description": "Great China Rollout",
       "Customer": "General Mills",
@@ -180,7 +180,7 @@
       "Level": "Junior",
       "Name": "Saturn China",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "Rollout of Greate China, including China mainland, Hongkong and Taiwan",
       "Contribution": [
         "Mainly role is CS(Customer Service) Consultant, and coordinate the"
@@ -201,7 +201,7 @@
       "Level": "Middle",
       "Name": "KMD - UI Security Logging",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "KMD is the customer of SAP Group in Danmark, with very high security policy level. SAP take cusomter solution and rebuilt it in SAP as a new security product. We responsible to implement the product and customer incident.",
       "Contribution": [
         "As a team member, was responsible for BSP development",
@@ -224,7 +224,7 @@
       "Level": "Middle",
       "Name": "Fujitsu-TA",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "Offshore project. All delivery including documentation are in Janpanese. Generally report devlopment which involve tranditional ABAP Technical Skills.",
       "Contribution": [
         "As a team member, was responsible for Coding using SAP ABAP/4",
@@ -246,8 +246,8 @@
       "Level": "Middle",
       "Name": "Fujitsu-Shaddy ",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
         "As a team member, was responsible for Coding using SAP ABAP/4",
         "Unit testing and UT evidence document creation."
@@ -268,8 +268,8 @@
       "Level": "Middle",
       "Name": "QSP implementation",
       "Status": "C",
-      "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
+      "Unit": "月",
+      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
         "As FICO consultant,Gather financial data from it’s Oracle 11i system, then set to OracleR12 system.",
         "Meanwhile, responsible for Watching source when meet problem using PL/SQL.Design blue printer per QSP business workflow of Financial",
@@ -305,7 +305,7 @@
       "Level": "Middle",
       "Name": "Hitach Add-on",
       "Status": "C",
-      "Unit": "Month",
+      "Unit": "月",
       "Summary": "Atlas CHitach Add-on it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
         "As an intern, got training in both SAP ABAP and Oracle EBS. Involved in some projcets to do some simply jobs and follow project workflow to take part in some mockup development projects."
@@ -316,8 +316,8 @@
   "Job": [
     {
       "ID": "0",
-      "CompanyName": "Hand",
-      "Position": "ERP development engineer",
+      "CompanyName": "汉得信息",
+      "Position": "ERP软件开发工程师",
       "Description": "Role as sofeware developer and FI consultant. \n On one hand, use the programing language [Oracle PL/SQL] [SAP ABAP] to make corresponding;\n On the other hand, join a Oracle EBS R12 implmentatoin project as FI Consultant. The ABAP progects are mainly Janpanese Offshore project, while Oracle EBS project are local ones.",
       "delimiter": "  -  ",
       "dateValue": "2008/12/01",
@@ -326,8 +326,8 @@
     },
     {
       "ID": "1",
-      "CompanyName": "Mingsi",
-      "Position": "SAP ABAP consultant",
+      "CompanyName": "明思科技",
+      "Position": "SAP ABAP开发工程师",
       "Description": "Onsite developement to server the customer [SAP Labs China]. Invovled in a Global project, which responsible to develop a SAP product per user requirment",
       "delimiter": "  -  ",
       "dateValue": "2011/04/12",
@@ -336,9 +336,9 @@
     },
     {
       "ID": "2",
-      "CompanyName": "Huashi",
-      "Position": "SAP ABAP Team leader",
-      "Description": "Onsite service to clients as ABAPer Leader. They are [General Mills],[ABeam Consulting],[General Mills],[Fuji Film],[Atlas Copco]. The majority of projects are global project.",
+      "CompanyName": "华时信息",
+      "Position": "SAP ABAP项目组长",
+      "Description": "Onsite service to clients as ABAPer Leader. They are [General Mills],[ABeam Consulting],[General Mills],[Fuji Film],[阿特拉斯.柯普科]. The majority of projects are global project.",
       "delimiter": "  -  ",
       "dateValue": "2011/10/20",
       "secondDateValue": "2018/07/06",
@@ -346,8 +346,8 @@
     },
     {
       "ID": "3",
-      "CompanyName": "Capgemini China",
-      "Position": "SAP ABAP consultant",
+      "CompanyName": "凯捷中国",
+      "Position": "SAP ABAP顾问",
       "Description": "Work on SAP Labs Chins(GS), refactor existing program, support customer, design and implement new customer story. Involving the latest development model and technologies, such as ABAP CDS, New ABAP, Scrum, HANA Modeling...",
       "delimiter": "  -  ",
       "dateValue": "2018/07/09",
@@ -358,24 +358,24 @@
   "Education": [
     {
       "ID": "0",
-      "SchoolName": "SouthWest Petroleum  University",
+      "SchoolName": "西南石油大学",
       "Location": "Chengdu China",
       "delimiter": "  -  ",
       "dateValue": "11/28/2017 13:59:12",
       "secondDateValue": "12/28/2017 13:59:12",
       "timeLine": "2005/09/01 - 2009/07/01",
       "dateFormat": "yyyy/MM/dd",
-      "Suject": "Computer science and technology"
+      "Suject": "计算机科学与技术"
     },
     {
       "ID": "1",
-      "SchoolName": "Hujiang online",
+      "SchoolName": "沪江网校",
       "Location": "Shanghai China",
       "delimiter": "  -  ",
       "dateValue": "10/28/2017 13:59:12",
       "secondDateValue": "12/28/2017 13:59:12",
       "timeLine": "2010/03/01 - 2010/08/15",
       "dateFormat": "yyyy/MM/dd",
-      "Suject": "Japanese"
+      "Suject": "日语"
     }]
 }

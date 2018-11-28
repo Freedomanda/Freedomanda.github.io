@@ -11,7 +11,10 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
-
+            var oView = this.getView();
+        },
+        OnBefore: function () {
+            var oView = this.getView();
         },
         onFilterProject: function (oEvent) {
             //Build filter array

@@ -17,6 +17,7 @@
           class="sapUiResponsiveMargin"
           width="auto"
           items="{path: 'project>/Project',
+                  beforeOpenContextMenu:'OnBefore',
                      sorter:
                      [
                        {  path: 'Company',

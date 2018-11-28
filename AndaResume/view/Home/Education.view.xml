@@ -17,9 +17,9 @@
       <Table id="educateList" inset="false" items="{path: 'project>/Education',
                      sorter: {  path: 'ID'}   }">
         <columns>
-          <Column class="sapUiResponsiveMargin"> <Text text="Name" /> </Column>
-          <Column class="sapUiResponsiveMargin"> <Text text="Timeline" /> </Column>
-          <Column width="12em" class="sapUiResponsiveMargin"> <Text text="Subject" /> </Column>
+          <Column class="sapUiResponsiveMargin"> <Text text="{i18n>Education_Sctxt}" /> </Column>
+          <Column class="sapUiResponsiveMargin"> <Text text="{i18n>Education_Titxt}" /> </Column>
+          <Column width="12em" class="sapUiResponsiveMargin"> <Text text="{i18n>Education_Mjtxt}" /> </Column>
         </columns>
         <items>
         <ColumnListItem>  

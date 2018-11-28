@@ -8,9 +8,9 @@
   displayBlock="true">
   <Panel headerText="{i18n>Career_hdtxt}" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
     <headerToolbar>
-      <Toolbar height="3rem" >
+      <Toolbar height="3rem">
         <Button text="{i18n>Career_hdtxt}" icon="sap-icon://company-view" press="onPress1" />
-        <ToolbarSpacer height="3rem"/>
+        <ToolbarSpacer/>
         <SegmentedButton selectedKey="CPG" selectionChange="onSelectionChange" id="Company" class="sapUiResponsiveMargin">
           <items>
             <SegmentedButtonItem text="4" key="CPG"  width="2.7rem" />
@@ -24,9 +24,9 @@
     <VBox class="sapUiSmallMargin">
       <f:SimpleForm id="jobinfo" editable ="false" layout ="ColumnLayout">
         <f:content>
-          <Label id="companyLb" text="Company" />
+          <Label id="companyLb" text="{i18n>Career_Compy}" />
           <Text id="CampanyName" text="{project>CompanyName}"/>
-          <Label id="TimeperiodLb" text="Timeperiod" />
+          <Label id="TimeperiodLb" text="{i18n>Career_Timeperiod}" />
           <DateRangeSelection
             id="DRS1"
             delimiter="{path: '/delimiter'}"
@@ -34,9 +34,9 @@
             secondDateValue="{path:'/secondDateValue'}"
             displayFormat="{path:'/dateFormat'}"
             editable="false"/>
-          <Label id="PositionLb" text="Position" />
+          <Label id="PositionLb" text="{i18n>Career_Position}" />
           <Text id="Position" text="{project>Position}"/>
-          <Label id="DescribeLb" text="Description" />
+          <Label id="DescribeLb" text="{i18n>Career_Description}" />
           <TextArea id="desc" value="{project>Description}" growing="true" width="100%" editable="false" valueLiveUpdate="true"/>
         </f:content>
       </f:SimpleForm>

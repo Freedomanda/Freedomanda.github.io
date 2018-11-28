@@ -10,8 +10,8 @@
       <Button
          icon="sap-icon://account"
          press="onOpenDialog"/>
-      <Switch id="Langu" state="true" customTextOn="EN" customTextOff="ZH"></Switch>
-      <Link text ="Wu Changchun"
+      <Switch id="Langu" state="true" customTextOn="EN" customTextOff="中文" change="onChangeLangu"></Switch>
+      <Link text ="{i18n>header_name}"
             href="https://sapui5.netweaver.ondemand.com/sdk/#/api"
             class="sapUiResponsiveMargin"
             target="_blank"
