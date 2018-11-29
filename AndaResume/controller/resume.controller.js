@@ -19,7 +19,7 @@ sap.ui.define([
             lang = lang.substr(0, 2); //Got first 2 characters
             if (lang == 'zh') {
                 this.byId("Langu").setState(false);
-                oModel = new JSONModel("./Project_zh.json");
+                oModel = new JSONModel("./Project_zh_CN.json");
             } else {
                 this.byId("Langu").setState(true);
                 oModel = new JSONModel("./Project.json");
@@ -47,10 +47,10 @@ sap.ui.define([
                 oModel = new JSONModel("./Project.json");
             } else {
                 langu = "zh_CN";
-                oModel = new JSONModel("./Project_zh_CN.json");
+                oModel = new JSONModel("./Project.json");
             }
             
-            this.getView().setModel(oModel, "project");
+            //this.getView().setModel(oModel, "project");
             /*sap.ui.getCore().byId("__xmlview3--Project").bindItems({
                 path: 'project>/Project', template: oTemplate
             });*/

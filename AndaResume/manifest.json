@@ -50,7 +50,6 @@
         "type": "sap.ui.model.json.JSONModel",
         "uri": "Project.json"
       }
-    }
     },
     "resources": {
       "css": [
