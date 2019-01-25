@@ -45,6 +45,8 @@
     <Link text ="{i18n>hpa2_itmtxt12}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
           class="sapUiResponsiveMargin" width="auto"/>
     <Link text ="{i18n>hpa2_itmtxt13}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>    
+          class="sapUiResponsiveMargin" width="auto"/>  
+    <Link text ="{i18n>hpa2_itmtxt14}" href="https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US" target="_blank"
+          class="sapUiResponsiveMargin" width="auto"/> 
   </Panel>
 </mvc:View>
