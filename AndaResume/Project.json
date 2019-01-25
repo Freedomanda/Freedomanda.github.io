@@ -346,9 +346,9 @@
     },
     {
       "ID": "3",
-      "CompanyName": "Capgemini China",
+      "CompanyName": "Capgemini China(Freelance)",
       "Position": "SAP ABAP consultant",
-      "Description": "Work on SAP Labs Chins(GS), refactor existing program, support customer, design and implement new customer story. Involving the latest development model and technologies, such as ABAP CDS, New ABAP, Scrum, HANA Modeling...",
+      "Description": "Work on SAP Labs China(GS), refactor existing program, support customer, design and implement new customer story. Involving the latest development model and technologies, such as ABAP CDS, New ABAP, Scrum, HANA Modeling...",
       "delimiter": "  -  ",
       "dateValue": "2018/07/09",
       "secondDateValue": "9999/12/31",
