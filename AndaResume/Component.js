@@ -10,13 +10,7 @@ sap.ui.define([
 	return UIComponent.extend("chuntian.resume.Component", {
 
         metadata: {
-                rootView: {
-                    "viewName": "chuntian.resume.view.App",
-                    "type": "XML",
-                    "async": true,
-                    "id": "chuntian"
-                }
-			//manifest: "json"
+			manifest: "json"
 		},
 
 		/**
