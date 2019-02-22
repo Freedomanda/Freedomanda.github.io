@@ -62,7 +62,7 @@
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
-        "viewPath": "chuntian.resume.view",
+        "viewPath": "chuntian.resume",
         "controlId": "app",
         "controlAggregation": "pages",
         "transition": "slide",
