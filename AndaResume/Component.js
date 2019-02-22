@@ -9,7 +9,11 @@ sap.ui.define([
 
 	return UIComponent.extend("chuntian.resume.Component", {
 
+<<<<<<< HEAD
         metadata: {
+=======
+		metadata: {
+>>>>>>> parent of 59efc0f... Update Component.js
 			manifest: "json"
 		},
 
