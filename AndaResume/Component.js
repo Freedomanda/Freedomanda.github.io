@@ -11,10 +11,20 @@ sap.ui.define([
 
 <<<<<<< HEAD
         metadata: {
+<<<<<<< HEAD
 =======
 		metadata: {
 >>>>>>> parent of 59efc0f... Update Component.js
 			manifest: "json"
+=======
+                rootView: {
+                    "viewName": "chuntian.resume.view.App",
+                    "type": "XML",
+                    "async": true,
+                    "id": "chuntian"
+                }
+			//manifest: "json"
+>>>>>>> parent of d5d506a... Update index
 		},
 
 		/**
