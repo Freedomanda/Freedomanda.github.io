@@ -1,10 +1,10 @@
 sap.ui.define([
     "sap/ui/core/UIComponent",
-    "sap/ui/Device",
+    //"sap/ui/Device",
     //"chuntian/resume/model/models",
     "sap/ui/model/json/JSONModel",
     "chuntian/resume/controller/Dialog/HelloDialog"
-], function (UIComponent, Device, JSONModel, HelloDialog) {
+], function (UIComponent, JSONModel, HelloDialog) {
 	"use strict";
 
 	return UIComponent.extend("chuntian.resume.Component", {
@@ -21,8 +21,6 @@ sap.ui.define([
 
 		/**
 		 * The component is initialized by UI5 automatically during the startup of the app and calls the init method once.
-		 * @public
-		 * @override
 		 */
 		init: function() {
 			// call the base component's init function
