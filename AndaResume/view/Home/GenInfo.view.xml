@@ -22,7 +22,7 @@
 					labelSpanM="4"
 					emptySpanL="0"
 					emptySpanM="0"
-					columnsL="4"
+					columnsL="3"
 					columnsM="4">
 					<f:content>
 						<Label text="{i18n>GenInfo_FNtxt}" />
