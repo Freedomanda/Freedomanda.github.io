@@ -4,19 +4,22 @@
     {
       "Company": "[4]凯捷中国(自由职业)",
       "Date": "2018/07",
-      "Description": "Hybris Marketing China Localization",
-      "Customer": "SAP Labs China - GS",
-      "Duration": "4",
+      "Description": "Hybris Marketing - 中国本地化",
+      "Customer": "SAP中国研究院（上海）",
+      "Duration": "7",
       "ID": "D10",
-      "Level": "Junior",
-      "Name": "数字账号本地化",
+      "Level": "",
+      "Name": "数字账号（微信，百度，阿里）本地化",
       "Status": "B",
       "Unit": "月",
-      "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
+      "Summary": "为了迎合数字时代的市场营销，在Hybirs Market基础上开发了新的主数据应用【社交账户】。\n【社交账号】是一个新的主数据，包括Twitter, Facebook等。在中国，本地化的主要社交销售方式如微信，Line，阿里邮箱及短信，百度收费检索等整合进来。",
       "Contribution": [
-        "The project not work like a traditional ABAP development mode",
-        "but popular product development mode - Agile Development. As ABAPer",
-        " responsible for the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
+        "此项目的开发与交付与传统的 ABAP实施不太一样。",
+        "采用敏捷开发的方式，我在本项目的后期进入，角色是ABAP产品开发和维护，主要负责",
+        " 【社交账户】应用，微信&Line集成的代码维护与客户支持。",
+        "具体来说，保证范围内的代码通过KPI标准；对代码进行优化；",
+        "响应Hybirs产品核心团队的变更,做相应的调整；",
+        "响应客户的请求，对产品中发现的错误在OP版本和云版本上做the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
       ],
       "Skills": {
         "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
@@ -27,7 +30,7 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2018/01",
-      "Description": "New Business Area VTBA setup",
+      "Description": "整合迁移设置新的业务线VTBA",
       "Customer": "阿特拉斯.柯普科",
       "Duration": "2",
       "ID": "C80",
@@ -35,9 +38,10 @@
       "Name": "VTBA",
       "Status": "C",
       "Unit": "月",
-      "Summary": "阿特拉斯.柯普科 have a new business area in Russia want involve SAP which not leverage SAP System as main ERP system. We use the 阿特拉斯.柯普科 template SEED to make a quick roll-out.",
+      "Summary": "阿特拉斯.柯普科俄罗斯的部分业务，整合进新的业务线VTBA. 部分业务数据之前不是在SAP系统中，通过集团的SEED模板快整的部署进来。",
       "Contribution": [
-        "Main role as ABAPer, create new report, implement new enhancement per the VTBA Organization, technical support functionality analyst and key users, setup new users and new roles per new VTBA organizatoin."
+        "作为ABAP实施顾问，对现有的系统的增强开发遍历，做相应的修改；根据VTBA业务需求，开发新的报表；协助功能顾问做数据迁移，协助项目上线；",
+        "创建新的用户和相应的ROLE，并分配。"
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,ALV",
@@ -48,7 +52,7 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2017/03",
-      "Description": "New independent Comapny Epiroc form 阿特拉斯.柯普科",
+      "Description": "阿特拉斯.柯普科集团新公司 安百拓（Epiroc） 启用",
       "Customer": "阿特拉斯.柯普科",
       "Duration": "4",
       "ID": "C70",
@@ -56,9 +60,9 @@
       "Name": "Epiroc",
       "Status": "C",
       "Unit": "月",
-      "Summary": "阿特拉斯.柯普科 Group split and create a new company Epiroc, which including some BAs like MR and CR. A new company Epiroc created in currently system.",
+      "Summary": "阿特拉斯.柯普科集团拆分现有的业务线，创建新的公司安百拓（Epiroc），把现有系统中的部分业务迁移到新的组织架构。",
       "Contribution": [
-        "Main role as ABAPer Leader, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. Coordinate our ABAPer Team with functionality analystS and users."
+        "作为ABAP实施顾问组长，对现有的系统的增强，报表，表单，接口等做相应的拷备并修改；与模块实施顾问协调，完成新公司的开发，测试，上线工作。"
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,,ALV",
@@ -69,7 +73,7 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2016/10",
-      "Description": "Dynapac Split",
+      "Description": "戴纳派克品牌独立拆分",
       "Customer": "阿特拉斯.柯普科",
       "Duration": "5",
       "ID": "C60",
@@ -77,9 +81,9 @@
       "Name": "Dynapac",
       "Status": "C",
       "Unit": "月",
-      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to 阿特拉斯.柯普科 for 1 years at least. However, the operation should be ran in a new company code.",
+      "Summary": "阿特拉斯.柯普科将其子品牌戴纳派克出售给Fayat.Fayat 希望把其运营信息系统放在托管在阿特拉斯.柯普科独立运营一段时间,即拆分现有业务到新的公司代码，并协助戴纳派克关键用户使用一段时间。",
       "Contribution": [
-        "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. Trainning the enduser, collecting master data, migrating transation data and routine technical issues."
+        "主要角色作为售后服务（PM/CS）模块实施顾问,并协助ABAP实施小组. 对关键用户进行培训；设置新的组织架构；收集并迁移主数据以及事务数据；"
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,ALV",
@@ -99,7 +103,7 @@
       "Unit": "月",
       "Summary": "阿特拉斯.柯普科希望把他的矿山与挖掘技术（MR）业务在中国独立运营核算。在SAP 系统中建立新的公司代码，组织架构。",
       "Contribution": [
-        "Main role as ABAPer, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. "
+        "作为ABAP实施顾问，对现有的系统的增强，报表，表单，接口等做相应的拷备并修改；与模块实施顾问协调，完成新公司的开发，测试，上线工作。 "
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,ALV",
@@ -110,17 +114,17 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2013/02",
-      "Description": "Routine support to the 阿特拉斯.柯普科 Group",
+      "Description": "阿特拉斯.柯普科集团内部技术开发及支持",
       "Customer": "阿特拉斯.柯普科",
       "Duration": "5.5",
       "ID": "C40",
       "Level": "Junior",
-      "Name": "ABAP Technical Support",
+      "Name": "ABAP技术支持",
       "Status": "C",
       "Unit": "年",
-      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "日常ABAP技术调查，开发等",
       "Contribution": [
-        "Technical support to functionality analyst and key users all around the world, including Russia, China, USA. Provide solution per user requiremnt, bug fixing of current program. "
+        "作为技术支持顾问，对部分国家和区域的业务提供支持。主要协且内部模块顾问，对用户的需求/问题做调查，可行性分析，开发，交付测试等。 "
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,RFC,WorkFlow,ALV",
@@ -131,7 +135,7 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2012/06",
-      "Description": "Latin American Offshore Project",
+      "Description": "巴西离岸外包项目",
       "Customer": "ABeam",
       "Duration": "7",
       "ID": "C30",
@@ -139,9 +143,9 @@
       "Name": "Latam NEC",
       "Status": "C",
       "Unit": "月",
-      "Summary": "It's an offshore project, which follow Japanese project model, and work language is English",
+      "Summary": "离岸外包项目，遵循日本项目开发模式，工作文档是英语",
       "Contribution": [
-        "Role as ABAPer. Programming per the FS from functionality analyst, making UT and IT, creat corresponding documentations including TS, UT Evidence and so on"
+        "作为ABAP开发顾问，根据功能设计书，撰写代码，单元测试，集成测试。 创建技术设计文档，单元测试证明文档作为交付物。"
       ],
       "Skills": {
         "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
@@ -152,17 +156,17 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2012/04",
-      "Description": "Fuji Film AP/AR report and trouble shoorting",
-      "Customer": "Fuji Film",
+      "Description": "富士胶片【应收/应付报表】开发及故障排查",
+      "Customer": "富士胶片",
       "Duration": "2",
       "ID": "C20",
       "Level": "Junior",
       "Name": "FFCN",
       "Status": "C",
       "Unit": "月",
-      "Summary": "Onsite technical support",
+      "Summary": "现场项目支持",
       "Contribution": [
-        "Main work on new AP/AR reprot, and help to analyse backlogs on their hands."
+        "作为ABAP开发顾问，主要协助用户开发一本应收/应付报表，同时帮助用户分析解决现有的一些问题。"
       ],
       "Skills": {
         "Technical": "ABAP Query,DIALOG,ALV,Enhancement",
@@ -173,17 +177,17 @@
     {
       "Company": "[3]华时信息咨询",
       "Date": "2011/11",
-      "Description": "Great China Rollout",
-      "Customer": "General Mills",
+      "Description": "大中华区SAP系统推广",
+      "Customer": "通用磨坊",
       "Duration": "5",
       "ID": "C10",
       "Level": "Junior",
-      "Name": "Saturn China",
+      "Name": "土星中国",
       "Status": "C",
       "Unit": "月",
-      "Summary": "Rollout of Greate China, including China mainland, Hongkong and Taiwan",
+      "Summary": "大中华区SAP系统上线实施包括， 包括中国大陆,香港特别行政区，台湾地区",
       "Contribution": [
-        "Mainly role is CS(Customer Service) Consultant, and coordinate the"
+        "作为ABAP开发顾问，协作全球实施团队主要是新报表，表单，增强等开发。"
       ],
       "Skills": {
         "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
@@ -192,7 +196,7 @@
 
     },
     {
-      "Company": "[2]明思科技 - Mingsi Technology",
+      "Company": "[2]明思科技",
       "Date": "2011/03",
       "Description": "Production development in namespace /SEC/",
       "Customer": "SAP Labs China(CD)",
@@ -215,20 +219,19 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]汉得信息",
       "Date": "2011/01",
-      "Description": "Japanese Offshore add-on report development",
-      "Customer": "Fujitsu",
+      "Description": "离岸日本二次开发项目",
+      "Customer": "富士通",
       "Duration": "2",
       "ID": "A50",
       "Level": "Middle",
       "Name": "Fujitsu-TA",
       "Status": "C",
       "Unit": "月",
-      "Summary": "Offshore project. All delivery including documentation are in Janpanese. Generally report devlopment which involve tranditional ABAP Technical Skills.",
+      "Summary": "日本离岸外包项目，交付物均以用日文作成。主要是运用传统的ABAP技术，报表，表单，对话程序的开发。",
       "Contribution": [
-        "As a team member, was responsible for Coding using SAP ABAP/4",
-        "Unit testing and UT evidence document creation."
+        "作为ABAP开发工程师，负责代码撰写，单元测试及测试贴图文档",
       ],
       "Skills": {
         "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
@@ -237,10 +240,10 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]汉得信息",
       "Date": "2010/06",
-      "Description": "Japanese Offshore add-on report development",
-      "Customer": "Beifa",
+      "Description": "离岸日本二次开发项目",
+      "Customer": "富士通",
       "Duration": "6",
       "ID": "A40",
       "Level": "Middle",
