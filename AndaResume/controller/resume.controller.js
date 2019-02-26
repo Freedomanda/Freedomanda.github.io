@@ -50,7 +50,7 @@ sap.ui.define([
                 oModel = new JSONModel("./Project_zh_CN.json");
             }
             
-            //this.getView().setModel(oModel, "project");
+            this.getView().setModel(oModel, "project");
             /*sap.ui.getCore().byId("__xmlview3--Project").bindItems({
                 path: 'project>/Project', template: oTemplate
             });*/
