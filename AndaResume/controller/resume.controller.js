@@ -47,7 +47,7 @@ sap.ui.define([
                 oModel = new JSONModel("./Project.json");
             } else {
                 langu = "zh_CN";
-                oModel = new JSONModel("./Project.json");
+                oModel = new JSONModel("./Project_zh_CN.json");
             }
             
             //this.getView().setModel(oModel, "project");
