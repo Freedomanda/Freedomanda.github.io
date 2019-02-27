@@ -19,7 +19,7 @@
         " 【社交账户】应用，微信&Line集成的代码维护与客户支持。",
         "具体来说，保证范围内的代码通过KPI标准；对代码进行优化；",
         "响应Hybirs产品核心团队的变更,做相应的调整；",
-        "响应客户的请求，对产品中发现的错误在OP版本和云版本上做the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
+        "响应客户的请求，对产品中发现的错误在OP版本和云版本上做修复和交付."
       ],
       "Skills": {
         "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
@@ -191,30 +191,30 @@
       ],
       "Skills": {
         "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
-        "Business": "SD,FI"
+        "Business": "SD,MM,FI"
       }
 
     },
     {
       "Company": "[2]明思科技",
       "Date": "2011/03",
-      "Description": "Production development in namespace /SEC/",
-      "Customer": "SAP Labs China(CD)",
+      "Description": "SAP内部安全产品开发",
+      "Customer": "SAP中国研究院(CD)",
       "Duration": "7",
       "ID": "B10",
       "Level": "Middle",
-      "Name": "KMD - UI Security Logging",
+      "Name": "KMD - 用户操作安全记录",
       "Status": "C",
       "Unit": "月",
-      "Summary": "KMD is the customer of SAP Group in Danmark, with very high security policy level. SAP take cusomter solution and rebuilt it in SAP as a new security product. We responsible to implement the product and customer incident.",
+      "Summary": "KMD是一家丹麦的大型集团，有非常高的安全策略。SAP以此为契机，重构用户的解决方案，集成到SAP，做成自己的安全产品，名字空间是/SEC/.",
       "Contribution": [
-        "As a team member, was responsible for BSP development",
-        "SAP GUI/CRM maintenance",
-        "Unit Testing and Module Integrate Test"
+        "作为项目组ABAP开发人员，主要是负责SAP GUI，BSP及Web Dynpro应用的界面操作记录的开发。",
+        "同时影应客户的事件请求，协助客户解决遇到的问题，反应的内部产品。",
+        "各种单元测试和集成测试，技术文档。"
       ],
       "Skills": {
-        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
-        "Business": "Hybirs Marketing, EDocument,SD,FI"
+        "Technical": "Enhancement,OO,Web Dynpro,BSP",
+        "Business": "SEC"
       }
 
     },
@@ -231,11 +231,11 @@
       "Unit": "月",
       "Summary": "日本离岸外包项目，交付物均以用日文作成。主要是运用传统的ABAP技术，报表，表单，对话程序的开发。",
       "Contribution": [
-        "作为ABAP开发工程师，负责代码撰写，单元测试及测试贴图文档",
+        "作为ABAP开发工程师，负责代码撰写，单元测试及测试贴图文档"
       ],
       "Skills": {
-        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
-        "Business": "Hybirs Marketing, EDocument,SD,FI"
+        "Technical": "Report,Dialog,BDC,BAPI,Enhancement,Smartform",
+        "Business": "FI,SD"
       }
 
     },
@@ -247,13 +247,12 @@
       "Duration": "6",
       "ID": "A40",
       "Level": "Middle",
-      "Name": "Fujitsu-Shaddy ",
+      "Name": "富士通-Shaddy ",
       "Status": "C",
       "Unit": "月",
-      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "Shaddy是一家从事红白喜事的公司，实施完SAP之后，要做许多二次定制开发，以满足其业务",
       "Contribution": [
-        "As a team member, was responsible for Coding using SAP ABAP/4",
-        "Unit testing and UT evidence document creation."
+        "作为ABAP开发工程师，负责代码撰写，单元测试及测试贴图文档"
       ],
       "Skills": {
         "Technical": "ALV,Dialog,Smartforms,Query,Enhancement",
@@ -262,56 +261,54 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]汉得信息",
       "Date": "2009/11",
-      "Description": "Oracle R12 implementation project of Beifa Base on OracLe EBS R12",
-      "Customer": "Beifa",
+      "Description": "宁波贝发快速消费品EBS R12实施",
+      "Customer": "贝发",
       "Duration": "7",
       "ID": "A30",
       "Level": "Middle",
-      "Name": "QSP implementation",
+      "Name": "快速消费品事业部快速R12实施",
       "Status": "C",
       "Unit": "月",
-      "Summary": "阿特拉斯.柯普科 sell it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "宁波贝发是一家从事文具制作的公司，是2008奥运会赞助品牌，为适应新的市场需求，成立快速消费品事业部，并以ORACLE EBS R12作为新的业务信息平台",
       "Contribution": [
-        "As FICO consultant,Gather financial data from it’s Oracle 11i system, then set to OracleR12 system.",
-        "Meanwhile, responsible for Watching source when meet problem using PL/SQL.Design blue printer per QSP business workflow of Financial",
-        "Configure the background system environment and initial training to Beifa staff."
+        "主要作为Oracle R12财务实施顾问，次要作为技术支持，参与项目的实施上线。 主要的工作事项是：收集其旧有11i 系统的财务数据；根据快速消费业务制定财务业务流程；制定新的组织架构并配置；",
+        "技术支持配合物流和销售模块顾问；项目上线数据导入；在测试环境给关键用户作初始培训"
       ]
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]汉得信息",
       "Date": "2009/03",
-      "Description": "Japanese Offshore add-on report development",
-      "Customer": "Hitachi",
+      "Description": "离岸日本二次开发项目",
+      "Customer": "日立",
       "Duration": "4",
       "ID": "A20",
       "Level": "Middle",
-      "Name": "DE mountain Hitachi manufacturing",
+      "Name": "日立德山制作所定制开发",
       "Status": "C",
       "Unit": "月",
-      "Summary": "AtlasHitachil it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "日本离岸外包项目，交付物均以用日文作成。主要是运用传统的ABAP技术，报表，表单，对话程序的开发。",
       "Contribution": [
-        "As a team member, was responsible for Coding using SAP ABAP/4",
-        "Unit testing and UT evidence document creation."
+        "作为ABAP开发顾问，协作全球实施团队主要是新报表，表单，增强等开发"
       ]
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]汉得信息",
       "Date": "2008/12",
-      "Description": "Training and practice project",
-      "Customer": "Hitach",
+      "Description": "ABAP,Oracle开发培训",
+      "Customer": "日立",
       "Duration": "3",
       "ID": "A10",
       "Level": "Middle",
-      "Name": "Hitach Add-on",
+      "Name": "日立建机二次开发",
       "Status": "C",
       "Unit": "月",
-      "Summary": "Atlas CHitach Add-on it's construction brand Dynapac(Tian) to Fayat",
+      "Summary": "根据实际项目需求接受开发培训",
       "Contribution": [
-        "As an intern, got training in both SAP ABAP and Oracle EBS. Involved in some projcets to do some simply jobs and follow project workflow to take part in some mockup development projects."
+        "接受日语，SAP ABAP/4及Oracel PL/SQL开发培训"
       ]
 
     }
@@ -320,8 +317,8 @@
     {
       "ID": "0",
       "CompanyName": "汉得信息",
-      "Position": "ERP软件开发工程师",
-      "Description": "Role as sofeware developer and FI consultant. \n On one hand, use the programing language [Oracle PL/SQL] [SAP ABAP] to make corresponding;\n On the other hand, join a Oracle EBS R12 implmentatoin project as FI Consultant. The ABAP progects are mainly Janpanese Offshore project, while Oracle EBS project are local ones.",
+      "Position": "ERP软件开发工程师/实施顾问",
+      "Description": "大部分时间作为软件开发顾问，使用ABAP/4和Oracle PL/SQL 编程语言，参与离岸日本外包项目开发。小部分时间，接受财务会计及R12财务模块培训，并参与一个半年左右短期项目。",
       "delimiter": "  -  ",
       "dateValue": "2008/12/01",
       "secondDateValue": "2011/03/11",
@@ -331,7 +328,7 @@
       "ID": "1",
       "CompanyName": "明思科技",
       "Position": "SAP ABAP开发工程师",
-      "Description": "Onsite developement to server the customer [SAP Labs China]. Invovled in a Global project, which responsible to develop a SAP product per user requirment",
+      "Description": "作为ABAP开发顾问，被派驻到客户“SAP中国研究院（上海）”参与全球项目开发.",
       "delimiter": "  -  ",
       "dateValue": "2011/04/12",
       "secondDateValue": "2011/10/18",
@@ -341,7 +338,7 @@
       "ID": "2",
       "CompanyName": "华时信息",
       "Position": "SAP ABAP项目组长",
-      "Description": "Onsite service to clients as ABAPer Leader. They are [General Mills],[ABeam Consulting],[General Mills],[Fuji Film],[阿特拉斯.柯普科]. The majority of projects are global project.",
+      "Description": "作为ABAP现场组长，被公司派驻到各甲方客户公司，参与SAP 项目的实施与维护，主要的客户公司有 [通用磨坊],[艾宾中国],[富士通],[阿特拉斯.柯普科],[普利司通]等. ",
       "delimiter": "  -  ",
       "dateValue": "2011/10/20",
       "secondDateValue": "2018/07/06",
@@ -350,8 +347,8 @@
     {
       "ID": "3",
       "CompanyName": "凯捷中国",
-      "Position": "SAP ABAP顾问",
-      "Description": "Work on SAP Labs Chins(GS), refactor existing program, support customer, design and implement new customer story. Involving the latest development model and technologies, such as ABAP CDS, New ABAP, Scrum, HANA Modeling...",
+      "Position": "SAP ABAP自由顾问",
+      "Description": "被派驻到客户“SAP中国研究院（上海）”参与SAP产品开发维护与客户支持等。",
       "delimiter": "  -  ",
       "dateValue": "2018/07/09",
       "secondDateValue": "9999/12/31",
@@ -362,7 +359,7 @@
     {
       "ID": "0",
       "SchoolName": "西南石油大学",
-      "Location": "Chengdu China",
+      "Location": "成都",
       "delimiter": "  -  ",
       "dateValue": "11/28/2017 13:59:12",
       "secondDateValue": "12/28/2017 13:59:12",
@@ -373,7 +370,7 @@
     {
       "ID": "1",
       "SchoolName": "沪江网校",
-      "Location": "Shanghai China",
+      "Location": "上海",
       "delimiter": "  -  ",
       "dateValue": "10/28/2017 13:59:12",
       "secondDateValue": "12/28/2017 13:59:12",
