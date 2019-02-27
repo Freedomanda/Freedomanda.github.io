@@ -15,12 +15,12 @@
           <HBox>
             <Image class="sapUiResponsive sapUiResopnsiveMargin"
                           src="./source/wechat_anda.png"
-                          description="wechat"
+                          alt="WeChat Account: freedomanda"
                           width="80%"
                           press="OnContact"></Image>
             <Image class="sapUiResponsiveRight sapUiResopnsiveMargin"
                     src="./source/qq_anda.png"
-                    description="qq"
+                    alt="QICQ Number: 604014016"
                     width="80%"
                     press="OnContact"></Image>
             </HBox>

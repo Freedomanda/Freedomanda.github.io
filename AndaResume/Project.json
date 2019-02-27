@@ -2,7 +2,7 @@
   "DateDelimiter": " - ",
   "Project": [
     {
-      "Company": "[4]凯捷中国(自由职业) - Capgemini China(Freelance)",
+      "Company": "[4]Capgemini China(Freelance)",
       "Date": "2018/07",
       "Description": "Hybris Marketing China Localization",
       "Customer": "SAP Labs China - GS",
@@ -25,7 +25,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2018/01",
       "Description": "New Business Area VTBA setup",
       "Customer": "Atlas Copco",
@@ -46,7 +46,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2017/03",
       "Description": "New independent Comapny Epiroc form Atlas Copco",
       "Customer": "Atlas Copco",
@@ -67,7 +67,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2016/10",
       "Description": "Dynapac Split",
       "Customer": "Atlas Copco",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2015/04",
       "Description": "Split Mining and Rocking Busniess to a new indepent company code",
       "Customer": "Atlas Copco",
@@ -108,7 +108,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2013/02",
       "Description": "Routine support to the Atlas Copco Group",
       "Customer": "Atlas Copco",
@@ -129,7 +129,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2012/06",
       "Description": "Latin American Offshore Project",
       "Customer": "ABeam",
@@ -150,7 +150,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2012/04",
       "Description": "Fuji Film AP/AR report and trouble shoorting",
       "Customer": "Fuji Film",
@@ -171,7 +171,7 @@
 
     },
     {
-      "Company": "[3]华时信息咨询 - Huashi Info",
+      "Company": "[3]Huashi Info&Consutanting",
       "Date": "2011/11",
       "Description": "Great China Rollout",
       "Customer": "General Mills",
@@ -192,7 +192,7 @@
 
     },
     {
-      "Company": "[2]明思科技 - Mingsi Technology",
+      "Company": "[2]Mingsi Technology",
       "Date": "2011/03",
       "Description": "Production development in namespace /SEC/",
       "Customer": "SAP Labs China(CD)",
@@ -215,7 +215,7 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]Hand",
       "Date": "2011/01",
       "Description": "Japanese Offshore add-on report development",
       "Customer": "Fujitsu",
@@ -237,7 +237,7 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]Hand",
       "Date": "2010/06",
       "Description": "Japanese Offshore add-on report development",
       "Customer": "Beifa",
@@ -259,7 +259,7 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]Hand",
       "Date": "2009/11",
       "Description": "Oracle R12 implementation project of Beifa Base on OracLe EBS R12",
       "Customer": "Beifa",
@@ -278,7 +278,7 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]Hand",
       "Date": "2009/03",
       "Description": "Japanese Offshore add-on report development",
       "Customer": "Hitachi",
@@ -296,7 +296,7 @@
 
     },
     {
-      "Company": "[1]汉得信息 - Hand",
+      "Company": "[1]Hand",
       "Date": "2008/12",
       "Description": "Training and practice project",
       "Customer": "Hitach",
@@ -336,7 +336,7 @@
     },
     {
       "ID": "2",
-      "CompanyName": "Huashi",
+      "CompanyName": "Huashi Info&Consutanting",
       "Position": "SAP ABAP Team leader",
       "Description": "Onsite service to clients as ABAPer Leader. They are [General Mills],[ABeam Consulting],[General Mills],[Fuji Film],[Atlas Copco]. The majority of projects are global project.",
       "delimiter": "  -  ",

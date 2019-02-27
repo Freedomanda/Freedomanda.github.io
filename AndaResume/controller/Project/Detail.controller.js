@@ -15,9 +15,29 @@
         formatter: formatter,
 
         onInit: function () {
+
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
             this.getView().setModel(new JSONModel(), "view");
+            this._SetModelProject;
             oRouter.getRoute("Detail").attachMatched(this._onRouteMatched, this);
+        },
+
+        _SetModelProject: function (oEvent) {
+            //Set Model "project"Per the Language
+            var lang_flag;
+            var lang = navigator.language || navigator.userLanguage;
+            var oModel;
+            lang = sap.ui.getCore().getConfiguration().getLanguage();
+            lang = lang.substr(0, 2); //Got first 2 characters
+            if (lang == 'zh') {
+                this.byId("Langu").setState(false);
+                oModel = new JSONModel("./Project_zh_CN.json");
+            } else {
+                this.byId("Langu").setState(true);
+                oModel = new JSONModel("./Project.json");
+            }
+            //sap.ui.getCore().setModel(oModel, "project");
+            this.getView().setModel(oModel, "project");
         },
 
         _onRouteMatched: function (oEvent) {
