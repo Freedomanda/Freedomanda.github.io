@@ -12,16 +12,16 @@
     select="onTabSelect"
     selectedKey="selectedTabKey">
       <items>
-        <IconTabFilter id="summaryTab" text="Project Summary" key="Summany">
+        <IconTabFilter id="summaryTab" text="{i18n>Tabtext_Summ}" key="Summany">
           <Text text="{project>Summary}" />
         </IconTabFilter>
-        <IconTabFilter id="contributeTab" text="Contribution" key="Contribute">
+        <IconTabFilter id="contributeTab" text="{i18n>Tabtext_Cont}" key="Contribute">
           <Text text="{project>Contribution}" />
         </IconTabFilter>
-        <IconTabFilter id="skillsTab" text="ABAP Skills Involved" key="Skills">
+        <IconTabFilter id="skillsTab" text="{i18n>Tabtext_Skill}" key="Skills">
           <!-- place content via lazy loading -->
         </IconTabFilter>
-        <IconTabFilter id="othersTab" text="Others" key="Others">
+        <IconTabFilter id="othersTab" text="{i18n>Tabtext_Others}" key="Others">
           <!-- place content via lazy loading -->
         </IconTabFilter>
       </items>

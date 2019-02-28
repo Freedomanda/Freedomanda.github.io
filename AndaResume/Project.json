@@ -15,8 +15,9 @@
       "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
       "Contribution": [
         "The project not work like a traditional ABAP development mode",
-        "but popular product development mode - Agile Development. As ABAPer",
-        " responsible for the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration, response and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
+        "\nbut popular product development mode - Agile Development. As ABAPer",
+        "\nresponsible for the Digital Account and Wechat/Line maintenace. Code Refactoring of Wechat and Line integration",
+        "\nresponse and make adjustment per incient from Marketing Core Team, handling customer incident with quick reply, and other routine transaction."
       ],
       "Skills": {
         "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
@@ -58,7 +59,7 @@
       "Unit": "Month",
       "Summary": "Atlas Copco Group split and create a new company Epiroc, which including some BAs like MR and CR. A new company Epiroc created in currently system.",
       "Contribution": [
-        "Main role as ABAPer Leader, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. Coordinate our ABAPer Team with functionality analystS and users."
+        "Main role as ABAPer Leader, modify/copy/create current/new reports, forms, enhancements, interfaces and so on. \nCoordinate our ABAPer Team with functionality analystS and users."
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,,ALV",
@@ -79,7 +80,7 @@
       "Unit": "Month",
       "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to Atlas Copco for 1 years at least. However, the operation should be ran in a new company code.",
       "Contribution": [
-        "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. Trainning the enduser, collecting master data, migrating transation data and routine technical issues."
+        "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. \nTrainning the enduser, collecting master data, migrating transation data and routine technical issues."
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,ALV",
@@ -120,7 +121,7 @@
       "Unit": "Year",
       "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
-        "Technical support to functionality analyst and key users all around the world, including Russia, China, USA. Provide solution per user requiremnt, bug fixing of current program. "
+        "Technical support to functionality analyst and key users all around the world, including Russia, China, USA. \nProvide solution per user requiremnt, bug fixing of current program. "
       ],
       "Skills": {
         "Technical": "IDOC,DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,BDC,OO,Web Service,RFC,WorkFlow,ALV",
@@ -141,7 +142,7 @@
       "Unit": "Month",
       "Summary": "It's an offshore project, which follow Japanese project model, and work language is English",
       "Contribution": [
-        "Role as ABAPer. Programming per the FS from functionality analyst, making UT and IT, creat corresponding documentations including TS, UT Evidence and so on"
+        "Role as ABAPer. Programming per the FS from functionality analyst, making UT and IT,\n creat corresponding documentations including TS, UT Evidence and so on"
       ],
       "Skills": {
         "Technical": "DIALOG,Smartform,BAPI,Enhancement,BDC,ABAP Query,ALV",
@@ -202,7 +203,7 @@
       "Name": "KMD - UI Security Logging",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "KMD is the customer of SAP Group in Danmark, with very high security policy level. SAP take cusomter solution and rebuilt it in SAP as a new security product. We responsible to implement the product and customer incident.",
+      "Summary": "KMD is the customer of SAP Group in Danmark, with very high security policy level. \nSAP take cusomter solution and rebuilt it in SAP as a new security product. We responsible to implement the product and customer incident.",
       "Contribution": [
         "As a team member, was responsible for BSP development",
         "SAP GUI/CRM maintenance",
@@ -225,7 +226,7 @@
       "Name": "Fujitsu-TA",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Offshore project. All delivery including documentation are in Janpanese. Generally report devlopment which involve tranditional ABAP Technical Skills.",
+      "Summary": "Offshore project. All delivery including documentation are in Janpanese. \nGenerally report devlopment which involve tranditional ABAP Technical Skills.",
       "Contribution": [
         "As a team member, was responsible for Coding using SAP ABAP/4",
         "Unit testing and UT evidence document creation."
@@ -271,9 +272,9 @@
       "Unit": "Month",
       "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
-        "As FICO consultant,Gather financial data from it’s Oracle 11i system, then set to OracleR12 system.",
-        "Meanwhile, responsible for Watching source when meet problem using PL/SQL.Design blue printer per QSP business workflow of Financial",
-        "Configure the background system environment and initial training to Beifa staff."
+        "As FICO consultant,Gather financial data from it’s Oracle 11i system, then set to OracleR12 system.\nMeanwhile",
+        "responsible for Watching source when meet problem using PL/SQL.Design blue printer per QSP business workflow of Financial",
+        "\nConfigure the background system environment and initial training to Beifa staff."
       ]
 
     },
@@ -291,7 +292,7 @@
       "Summary": "AtlasHitachil it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
         "As a team member, was responsible for Coding using SAP ABAP/4",
-        "Unit testing and UT evidence document creation."
+        "\nUnit testing and UT evidence document creation."
       ]
 
     },
@@ -308,7 +309,7 @@
       "Unit": "Month",
       "Summary": "Atlas CHitach Add-on it's construction brand Dynapac(Tian) to Fayat",
       "Contribution": [
-        "As an intern, got training in both SAP ABAP and Oracle EBS. Involved in some projcets to do some simply jobs and follow project workflow to take part in some mockup development projects."
+        "As an intern, got training in both SAP ABAP and Oracle EBS. \nInvolved in some projcets to do some simply jobs and follow project workflow to take part in some mockup development projects."
       ]
 
     }
