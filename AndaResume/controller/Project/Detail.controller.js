@@ -22,10 +22,8 @@
             lang = sap.ui.getCore().getConfiguration().getLanguage();
             lang = lang.substr(0, 2); //Got first 2 characters
             if (lang == 'zh') {
-                this.byId("Langu").setState(false);
                 oModel = new JSONModel("./Project_zh_CN.json");
             } else {
-                this.byId("Langu").setState(true);
                 oModel = new JSONModel("./Project.json");
             }
             //sap.ui.getCore().setModel(oModel, "project");
