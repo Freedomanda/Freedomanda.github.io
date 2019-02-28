@@ -15,14 +15,6 @@
         formatter: formatter,
 
         onInit: function () {
-
-            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-            this.getView().setModel(new JSONModel(), "view");
-            this._SetModelProject;
-            oRouter.getRoute("Detail").attachMatched(this._onRouteMatched, this);
-        },
-
-        _SetModelProject: function (oEvent) {
             //Set Model "project"Per the Language
             var lang_flag;
             var lang = navigator.language || navigator.userLanguage;
@@ -38,6 +30,10 @@
             }
             //sap.ui.getCore().setModel(oModel, "project");
             this.getView().setModel(oModel, "project");
+
+            var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+            this.getView().setModel(new JSONModel(), "view");
+            oRouter.getRoute("Detail").attachMatched(this._onRouteMatched, this);
         },
 
         _onRouteMatched: function (oEvent) {
