@@ -35,7 +35,13 @@
 						<Text text="{i18n>GenInfo_Gender}" />
             
 						<Label text="{i18n>GenInfo_Emtxt}" />
-						<Text text="{i18n>GenInfo_Email}" />
+						<Link  href="{
+							            parts: [
+								            'i18n>GenInfo_Email'
+							            ],
+							            formatter: '.formatMail'
+						            }"
+                   text="{i18n>GenInfo_Email}" />
 						<Label text="{i18n>GenInfo_RDtxt}" />
 						<Text text="{i18n>GenInfo_Resid}" />
 						<Label text="{i18n>GenInfo_HDtxt}" />

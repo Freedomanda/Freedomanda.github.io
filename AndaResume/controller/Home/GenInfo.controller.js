@@ -4,8 +4,9 @@
     "sap/ui/model/Filter",
     "sap/ui/model/FilterOperator",
     "sap/ui/core/routing/History",
-    "sap/m/MessageToast"
-], function (Controller, formatter, Filter, FilterOperator, History, MessageToast) {
+    "sap/m/MessageToast",
+    "sap/m/library"
+], function (Controller, formatter, Filter, FilterOperator, History, MessageToast, mobileLibrary) {
     "use strict";
 
     return Controller.extend("chuntian.resume.controller.Home.GenInfo", {
@@ -14,6 +15,13 @@
 
         onInit: function () {
 
+        },
+        formatMail: function (email) {
+            var oBundle = this.getView().getModel("i18n").getResourceBundle();
+            return mobileLibrary.URLHelper.normalizeEmail(
+                email,
+                oBundle.getText("GenInfo_mailSubject"),
+                oBundle.getText("GenInfo_mailBody"));
         },
         onPress: function (oEvent) {
             var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
