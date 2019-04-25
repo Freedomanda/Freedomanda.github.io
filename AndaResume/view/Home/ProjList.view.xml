@@ -17,6 +17,8 @@
           class="sapUiResponsiveMargin"
           width="auto"
           items="{path: 'project>/Project',
+                  parameters: {
+									$count: true } ,
                   beforeOpenContextMenu:'OnBefore',
                      sorter:
                      [

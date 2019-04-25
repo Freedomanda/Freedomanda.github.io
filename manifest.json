@@ -55,6 +55,9 @@
         "viewPath": "chuntian.home",
         "controlId": "chuntian",
         "controlAggregation": "pages",
+        "bypassed": {
+          "target": "notFound"
+        },
         "async": true
       },
       "routes": [
@@ -94,6 +97,11 @@
         "page4": {
           "viewId": "page4",
           "viewName": "view.Page2"
+        },
+        "notFound": {
+          "viewId": "notFound",
+          "viewName": "NotFound",
+          "transition": "show"
         },
         "project_summary": {
           "viewId": "projectSummary",
