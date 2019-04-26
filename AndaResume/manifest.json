@@ -65,6 +65,9 @@
         "viewPath": "chuntian.resume.view",
         "controlId": "app",
         "controlAggregation": "pages",
+        "bypassed": {
+					"target": "notFound"
+				},
         "transition": "slide",
         "async": true
       },
@@ -98,11 +101,13 @@
       "targets": {
         "ResumeHome": {
           "viewId": "ResumeHome",
-          "viewName": "Resume"
+          "viewName": "Resume",
+          "viewLevel" : 1
         },
         "D10": {
           "viewId": "D10",
-          "viewName": "Project.D10"
+          "viewName": "Project.D10",
+          "viewLevel" : 2
         },
         "C50": {
           "viewId": "C50",
@@ -115,11 +120,13 @@
         "Detail": {
           "viewId": "Detail",
           "viewName": "Project.Detail",
-          "transition": "flip"
+          "transition": "flip",
+          "viewLevel" : 2
         },
         "notFound": {
           "viewId": "notFound",
-          "viewName": "NotFound"
+          "viewName": "NotFound",
+          "transition": "show"
         },
         "resumeTabSkills": {
           "parent": "Detail",
@@ -127,7 +134,8 @@
           "viewPath": "chuntian.resume.view.Project",
           "viewName": "DetailSkills",
           "controlId": "skillsTab",
-          "controlAggregation": "content"
+          "controlAggregation": "content",
+          "viewLevel" : 3
         },
         "resumeTabOthers": {
           "parent": "Detail",
@@ -135,7 +143,8 @@
           "viewPath": "chuntian.resume.view.Project",
           "viewName": "DetailOthers",
           "controlId": "othersTab",
-          "controlAggregation": "content"
+          "controlAggregation": "content",
+          "viewLevel" : 3
         }
       }
     }
