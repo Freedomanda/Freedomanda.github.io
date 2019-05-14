@@ -39,7 +39,7 @@
             target="_blank"
             width="auto"/>
       <Link text ="{i18n>hpa1_itmtxt5}" 
-            href="./Chunge_UI5/HelloWorld/Helloworld.html" 
+            href="./PM_template.xlsx" 
             class="sapUiResponsiveMargin"
             target="_blank"
             width="auto"/>  
