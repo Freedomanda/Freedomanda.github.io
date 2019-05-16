@@ -8,17 +8,21 @@
     function (Controller, messageToast, History) {
         "use strict";
         return Controller.extend("chuntian.home.controller.App", {
-            /*onInit: function () {
+            onInit: function () {
              //set data model on view
-                var oData = {
+                /*var oData = {
                     recipient: { name: "World" }
                 };
                 var oModel = new JSONModel(oData);
                 this.getView().setModel(oModel);
             // set i18n  model on view
                 var i18nModel = new ResourceModel({ bundleName: "chuntian.home.i18n.i18n" });
-                this.getView().setModel(i18nModel,"i18n");
-            },*/
+                this.getView().setModel(i18nModel,"i18n");*/
+                setTimeout("scrollText()",10000);
+            },
+            scrollText: function(){
+                $("#slogan").slideToggle();
+            },
             onShowHello: function () {
                 // show a native JavaScript alert static
                 //messageToast.show("点我干哈");

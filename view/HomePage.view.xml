@@ -12,7 +12,7 @@
       <Button
         icon="sap-icon://hello-world"
         press="onOpenDialog"/>
-      <Text text="{i18n>slogan}" />
+      <Text id="slogan" text="{i18n>slogan}" />
     </headerContent>
     <content>
       <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel1"/>
