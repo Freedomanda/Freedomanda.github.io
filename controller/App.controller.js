@@ -18,10 +18,6 @@
             // set i18n  model on view
                 var i18nModel = new ResourceModel({ bundleName: "chuntian.home.i18n.i18n" });
                 this.getView().setModel(i18nModel,"i18n");*/
-                setTimeout("scrollText()",10000);
-            },
-            scrollText: function(){
-                $("#slogan").slideToggle();
             },
             onShowHello: function () {
                 // show a native JavaScript alert static
