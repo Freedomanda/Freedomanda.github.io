@@ -26,6 +26,30 @@
 
     },
     {
+      "Company": "[4]Capgemini China(Freelance)",
+      "Date": "2019/02",
+      "Description": "Digital Compliance Platform",
+      "Customer": "SAP Labs China - GS",
+      "Duration": "6",
+      "ID": "D20",
+      "Level": "Junior",
+      "Name": "Digital Compliance Platform, eDocumnet",
+      "Status": "B",
+      "Unit": "Month",
+      "Summary": "To reduce the duplicate development of digital compliance service of each country/region, a generic platform is created to provide service to separate service, which can significantly improve the deploy lifecycle.  ",
+      "Contribution": [
+        "The project not work like a traditional ABAP development mode",
+        "\nbut popular product development mode - Agile Development. As ABAPer",
+        "\nresponsible for the POC research of integration of DCP and SAP S/4 HANA Cloud,",
+        "\nhelp the PEPPOL Team to migrate there solution to CLOUD."
+      ],
+      "Skills": {
+        "Technical": "Communication Management, Web Service, SCC ,SAP UI5,OO,IFlow",
+        "Business": "DCS, EDocument,SD,FI"
+      }
+
+    },
+    {
       "Company": "[3]Huashi Info&Consutanting",
       "Date": "2018/01",
       "Description": "New Business Area VTBA setup",
@@ -78,7 +102,7 @@
       "Name": "Dynapac",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tian) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to Atlas Copco for 1 years at least. However, the operation should be ran in a new company code.",
+      "Summary": "Atlas Copco sell it's construction brand Dynapac(Tianjin) to Fayat. But Fayat don't want split the business from Atals Copco system immediately and just consign it to Atlas Copco for 1 years at least. However, the operation should be ran in a new company code.",
       "Contribution": [
         "Main role as CS(Customer Service) Consultant, and responsible to coordinate with the ABAPer team. \nTrainning the enduser, collecting master data, migrating transation data and routine technical issues."
       ],
