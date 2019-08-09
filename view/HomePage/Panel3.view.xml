@@ -16,12 +16,18 @@
             width="auto"/>
       </Toolbar>
     </headerToolbar>    
-    <Link text ="SAP UI5 - Demo Apps" href="https://sapui5.netweaver.ondemand.com/sdk/#/demoapps"
+    <Link text ="{i18n>hpa3_itmtxt1}" href="https://sapui5.netweaver.ondemand.com/sdk/"
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="我的练习" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
+    <Link text ="{i18n>hpa3_itmtxt2}" href="./Chunge_UI5/PracticsHome/index.html" target="_blank"
           class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="Fiori" href="https://ux.wdf.sap.corp/fiori-design-web/"
+    <Link text ="{i18n>hpa3_itmtxt3}" href="https://ux.wdf.sap.corp/fiori-design-web/"
           target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa3_itmtxt4}" href="https://www.angular.cn/"
+      target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa3_itmtxt5}" href="https://codepen.io"
+      target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+    <Link text ="{i18n>hpa3_itmtxt6}" href="https://www.uisdc.com/large-screen-data-visualization-design"
+      target="_blank" class="sapUiResponsiveMargin" width="auto"/>
   </Panel>
 
 </mvc:View>
