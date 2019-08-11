@@ -1,21 +1,17 @@
-<mvc:View
-  controllerName="chuntian.home.controller.HomePage.Panel5"
-  xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc"
-  displayBlock="true">
-
-  <Panel headerText="{i18n>hpa5_hdtxt}" class="sapUiResponsiveMargin" width="auto">
-    <headerToolbar>
-      <Toolbar height="3rem">
-        <Title text="{i18n>hpa5_hdtxt}"/>
-        <ToolbarSpacer />
-        <Button text ="{i18n>explorer}" icon="sap-icon://explorer"  />
-      </Toolbar>
-    </headerToolbar>
-    <Link text ="SAP开发者指南" href="https://developers.sap.com/topics/abap-platform.html" target="_blank"
-          emphasized="true" class="sapUiResponsiveMargin"/>
-    <Link text ="Python-廖雪峰中文教程" href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016966022717728"  
-          target="_blank" class="sapUiSmallMargin"/>
-  </Panel>
-  
+<mvc:View controllerName="chuntian.home.controller.HomePage.Panel5" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+	<Panel headerText="{i18n>hpa5_hdtxt}" class="sapUiResponsiveMargin" width="auto">
+		<headerToolbar>
+			<Toolbar height="3rem">
+				<Title text="{i18n>hpa5_hdtxt}"/>
+				<ToolbarSpacer/>
+				<Button text="{i18n>explorer}" icon="sap-icon://explorer"/>
+			</Toolbar>
+		</headerToolbar>
+		<Link text="SAP开发者指南" href="https://developers.sap.com/topics/abap-platform.html" target="_blank" emphasized="true"
+			class="sapUiResponsiveMargin"/>
+		<Link text="Python-廖雪峰中文教程" href="https://www.liaoxuefeng.com/wiki/1016959663602400/1016966022717728" target="_blank"
+			class="sapUiSmallMargin"/>
+		<Link text="NodeJS - RUNOOB教程" href="https://www.runoob.com/nodejs/nodejs-tutorial.html" target="_blank"
+			class="sapUiSmallMargin"/>
+	</Panel>
 </mvc:View>

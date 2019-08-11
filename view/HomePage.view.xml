@@ -19,6 +19,7 @@
       <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel2"/>
       <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel3"/>
       <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel4"/>
+      <mvc:XMLView viewName="chuntian.home.view.HomePage.Panel5"/>
     </content>
   </Page>
 </mvc:View>

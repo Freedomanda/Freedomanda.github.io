@@ -1,52 +1,29 @@
-<mvc:View
-  controllerName="chuntian.home.controller.HomePage.Panel2"
-  xmlns="sap.m"
-  xmlns:mvc="sap.ui.core.mvc"
-  displayBlock="true">
-  <Panel headerText="{i18n>hpa2_hdtxt}" id ="ABAP" class="sapUiResponsiveMargin" width="auto">
-    <headerToolbar>
-      <Toolbar height="3rem">
-        <Title text="{i18n>hpa2_hdtxt}"/>
-        <ToolbarSpacer />
-        <Link text ="SAP Help"
-            href="https://help.sap.com/viewer/index"
-            class="sapUiResponsiveMargin"
-            target="_blank"
-            width="auto"/>
-        <Link text ="SCN"
-            href="https://www.sap.com/community.html"
-            class="sapUiResponsiveMargin"
-            target="_blank"
-            width="auto"/>
-      </Toolbar>
-    </headerToolbar>    
-    <Link text ="{i18n>hpa2_itmtxt1}" href="./ArialResume/ArialResumeIndex.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt2}" href="./Chunge_UI5/HelloWorld/Helloworld.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt3}" href="./ArialResume/ArialResumeIndex.html"  target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt4}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt5}" href="./ArialResume/ArialResumeIndex.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt6}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt7}" href="./ArialResume/ArialResumeIndex.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt8}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt9}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt10}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt11}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt12}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>
-    <Link text ="{i18n>hpa2_itmtxt13}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/>  
-    <Link text ="{i18n>hpa2_itmtxt14}" href="https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US" target="_blank"
-          class="sapUiResponsiveMargin" width="auto"/> 
-  </Panel>
+<mvc:View controllerName="chuntian.home.controller.HomePage.Panel2" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+	<Panel headerText="{i18n>hpa2_hdtxt}" id="ABAP" class="sapUiResponsiveMargin" width="auto">
+		<headerToolbar>
+			<Toolbar height="3rem">
+				<Title text="{i18n>hpa2_hdtxt}"/>
+				<ToolbarSpacer/>
+				<Link text="SAP Help" href="https://help.sap.com/viewer/index" class="sapUiResponsiveMargin" target="_blank" width="auto"/>
+				<Link text="SCN" href="https://www.sap.com/community.html" class="sapUiResponsiveMargin" target="_blank" width="auto"/>
+			</Toolbar>
+		</headerToolbar>
+		<Link text="{i18n>hpa2_itmtxt1}" href="./ArialResume/ArialResumeIndex.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt2}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt3}" href="./ArialResume/ArialResumeIndex.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt4}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt5}" href="./ArialResume/ArialResumeIndex.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt6}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt7}" href="./ArialResume/ArialResumeIndex.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt8}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt9}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt10}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt11}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt12}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt13}" href="./Chunge_UI5/HelloWorld/Helloworld.html" target="_blank" class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt14}" href="https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US" target="_blank"
+			class="sapUiResponsiveMargin" width="auto"/>
+		<Link text="{i18n>hpa2_itmtxt15}" href="https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.html" target="_blank"
+			class="sapUiResponsiveMargin" width="auto"/>
+	</Panel>
 </mvc:View>

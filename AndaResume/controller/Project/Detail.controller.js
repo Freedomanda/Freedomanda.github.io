@@ -1,4 +1,4 @@
-﻿sap.ui.define([
+sap.ui.define([
     "sap/ui/core/mvc/Controller",
     "chuntian/resume/model/formatter",
     "sap/ui/model/Filter",
@@ -16,12 +16,12 @@
 
         onInit: function () {
             //Set Model "project"Per the Language
-            var lang_flag;
+            //var lang_flag;
             var lang = navigator.language || navigator.userLanguage;
             var oModel;
             lang = sap.ui.getCore().getConfiguration().getLanguage();
             lang = lang.substr(0, 2); //Got first 2 characters
-            if (lang == 'zh') {
+            if (lang === "zh") {
                 oModel = new JSONModel("./Project_zh_CN.json");
             } else {
                 oModel = new JSONModel("./Project.json");
