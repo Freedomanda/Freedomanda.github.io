@@ -34,6 +34,20 @@ sap.ui.define([
             oRouter.getRoute("Detail").attachMatched(this._onRouteMatched, this);
         },
 
+        onBeforeRendering: function (){
+            var lang = navigator.language || navigator.userLanguage;
+            var oModel;
+            lang = sap.ui.getCore().getConfiguration().getLanguage();
+            lang = lang.substr(0, 2); //Got first 2 characters
+            if (lang === "zh") {
+                oModel = new JSONModel("./Project_zh_CN.json");
+            } else {
+                oModel = new JSONModel("./Project.json");
+            }
+            //sap.ui.getCore().setModel(oModel, "project");
+            this.getView().setModel(oModel, "project");
+        },
+
         _onRouteMatched: function (oEvent) {
             var oArgs, oView, oQuery;
 
