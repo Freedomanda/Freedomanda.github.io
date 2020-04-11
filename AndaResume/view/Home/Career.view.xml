@@ -13,6 +13,8 @@
         <ToolbarSpacer/>
         <SegmentedButton selectedKey="CPG" selectionChange="onSelectionChange" id="Company" class="sapUiResponsiveMargin">
           <items>
+            <SegmentedButtonItem text="6" key="TUV"  width="2.7rem" />
+            <SegmentedButtonItem text="5" key="ALG"  width="2.7rem" />          
             <SegmentedButtonItem text="4" key="CPG"  width="2.7rem" />
             <SegmentedButtonItem text="3"  key="HUS"  width="2.7rem"/>
             <SegmentedButtonItem text="2" key="MSI"  width="2.7rem"/>

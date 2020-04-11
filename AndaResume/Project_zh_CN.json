@@ -2,6 +2,48 @@
   "DateDelimiter": " - ",
   "Project": [
     {
+      "Company": "[6]莱茵科技（上海)",
+      "Date": "2019/09",
+      "Description": "ComPASS",
+      "Customer": "莱茵科技（上海）",
+      "Duration": "3",
+      "ID": "F10",
+      "Level": "",
+      "Name": "ComPASS",
+      "Status": "B",
+      "Unit": "月",
+      "Summary": "为了更好迎合数字时代的新挑战，整合优化公司业务流程和资源到一个统一接口，替代旧的业务流程。\n以E2E为核心，整合了公司的各个子系统。",
+      "Contribution": [
+        "在不同的敏捷团队中，根据 PO, scrum master， BA 提出的Story, 与前端协作，完成ABAP 后端的子任务。"
+      ],
+      "Skills": {
+        "Technical": "OData,ABAP CDS,New ABAP,OO,iFlow",
+        "Business": "Scheduling,IMS,IPMS,CORE,E2E"
+      }
+
+    },
+    {
+      "Company": "[5]艾利安人才服务(自由职业)",
+      "Date": "2019/09",
+      "Description": "莱茵科技-IT项目",
+      "Customer": "莱茵科技（上海）",
+      "Duration": "5",
+      "ID": "E10",
+      "Level": "",
+      "Name": "数字账号（微信，百度，阿里）本地化",
+      "Status": "B",
+      "Unit": "月",
+      "Summary": "。",
+      "Contribution": [
+        "此项目的开发与交付与传统的 ABAP实施不太一样，采用敏捷开发的方式。\n我在本项目的后期进入，角色是ABAP产品开发和维护，主要负责【社交账户】应用，微信&Line集成的代码维护与客户支持。\n具体来说"
+      ],
+      "Skills": {
+        "Technical": "OData,Script Form, Smartform,ABAP CDS,New ABAP,OO,RFC,Web Service",
+        "Business": "IPMS,Core,TSL"
+      }
+
+    },
+    {
       "Company": "[4]凯捷中国(自由职业)",
       "Date": "2018/07",
       "Description": "Hybris Marketing - 中国本地化",
@@ -10,7 +52,7 @@
       "ID": "D10",
       "Level": "",
       "Name": "数字账号（微信，百度，阿里）本地化",
-      "Status": "B",
+      "Status": "C",
       "Unit": "月",
       "Summary": "为了迎合数字时代的市场营销，在Hybirs Market基础上开发了新的主数据应用【社交账户】。\n【社交账号】是一个新的主数据，包括Twitter, Facebook等。在中国，本地化的主要社交销售方式如微信，Line，阿里邮箱及短信，百度收费检索等整合进来。",
       "Contribution": [
@@ -18,7 +60,7 @@
         "保证范围内的代码通过KPI标准；对代码进行优化；响应Hybirs产品核心团队的变更，做相应的调整；\n响应客户的请求，对产品中发现的错误在OP版本和云版本上做修复和交付."
       ],
       "Skills": {
-        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,IFlow",
+        "Technical": "BOPF,OData,Gateway,SAP UI5,HANA Modeling,ABAP CDS,New ABAP,OO,iFlow",
         "Business": "Hybirs Marketing,SD,FI"
       }
 
@@ -32,7 +74,7 @@
       "ID": "D20",
       "Level": "",
       "Name": "数字合规平台,电子发票本地化",
-      "Status": "B",
+      "Status": "C",
       "Unit": "月",
       "Summary": "为了适应数字化时代的电子发票需求，使企业能符合本地的电子交互法规。\n 每一个国家和地区，都要开发其特殊的电子发票接口，主要包含B2C,B2B,B2G的场合。\n为了减少重复的开发工作，开发出一个比较共通的平台，提供给需要服务的客户。\n主要包含记费，流程管理，入场配置,系统交互,证书管理等场景",
       "Contribution": [
@@ -371,6 +413,26 @@
       "dateValue": "2018/07/09",
       "secondDateValue": "9999/12/31",
       "dateFormat": "yyyy/MM/dd"
+    },
+    {
+      "ID": "4",
+      "CompanyName": "艾利安人才服务（上海）",
+      "Position": "SAP ABAP自由顾问",
+      "Description": "被派驻到客户“莱茵科技（上海）”参与内部SAP产品开发维护与客户支持，包括迁移项目oSoH,新业务整合项目ComPASS等。",
+      "delimiter": "  -  ",
+      "dateValue": "2019/09/16",
+      "secondDateValue": "2020/01/15",
+      "dateFormat": "yyyy/MM/dd"
+    },
+    {
+      "ID": "5",
+      "CompanyName": "莱茵科技（上海）",
+      "Position": "高级应用开发员",
+      "Description": " 负责 IPMS/CORE 子模块，参与公司内部迁移项目oSoH上线; 业务整合项目ComPASS项目各子模块SAP ABAP相关开发。",
+      "delimiter": "  -  ",
+      "dateValue": "2020/01/16",
+      "secondDateValue": "9999/12/31",
+      "dateFormat": "yyyy/MM/dd"
     }
   ],
   "Education": [
@@ -395,5 +457,16 @@
       "timeLine": "2010/03/01 - 2010/08/15",
       "dateFormat": "yyyy/MM/dd",
       "Suject": "日语"
+    },
+    {
+      "ID": "2",
+      "SchoolName": "清晖项目管理",
+      "Location": "上海",
+      "delimiter": "  -  ",
+      "dateValue": "10/28/2017 13:59:12",
+      "secondDateValue": "12/28/2017 13:59:12",
+      "timeLine": "2019/08/01 - 2019/12/17",
+      "dateFormat": "yyyy/MM/dd",
+      "Suject": "PMP"
     }]
 }
