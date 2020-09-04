@@ -16,6 +16,9 @@
           emphasized="true" class="sapUiResponsiveMargin"/>
     <Link text ="Resume(EN)" href="./AndaResume/index.html?sap-language=en"  
           target="_blank" class="sapUiSmallMargin"/>
+
+    <Link text ="Download Resume(EN)" href="./CV_En_WuChangchun_2019.doc"  
+          target="_blank" class="sapUiSmallMargin"/>          
   </Panel>
   
 </mvc:View>
