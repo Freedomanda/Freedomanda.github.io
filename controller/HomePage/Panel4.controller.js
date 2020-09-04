@@ -8,7 +8,7 @@
     "use strict";
         return Controller.extend("chuntian.home.controller.HomePage.Panel4", {
             onDownLoad: function(){
-                File.save("chuntian/home/CV_En_WuChangchun_2019.doc","CV_Anda_2019_EN" ,".doc" );
+                File.save("chuntian/home/CV_En_WuChangchun_2019.doc","CV_Anda_2019_EN" ,"doc" );
             }
     });
 });
