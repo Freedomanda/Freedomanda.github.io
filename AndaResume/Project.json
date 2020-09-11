@@ -2,6 +2,50 @@
   "DateDelimiter": " - ",
   "Project": [
     {
+      "Company": "[6]TUV Rheinland Shanghai",
+      "Date": "2020/01",
+      "Description": "ComPASS",
+      "Customer": "N/A",
+      "Duration": "9",
+      "ID": "F10",
+      "Level": "",
+      "Name": "ComPASS",
+      "Status": "B",
+      "Unit": "Month",
+      "Summary": "A new end-to-end business platform created to better meet the new challenges of the digital age.",
+      "Contribution": [
+        "Multiple modules in different scrum teams integrated to ComPASS program.",
+        "\nAs application devloper, involved in E2E team,Scheduling team and IMS team.",
+        "\nMeanwhile ,support tickets rasied by key users which found in the released product."
+      ],
+      "Skills": {
+        "Technical": "OData,ABAP CDS,New ABAP,OO",
+        "Business": "Scheduling,IMS,IPMS,CORE,E2E"
+      }
+
+    },
+    {
+      "Company": "[5]Allegis Group(Freelance)",
+      "Date": "2019/09",
+      "Description": "TUV IT Project - One SAP On HANA",
+      "Customer": "TUV Rheinland Shanghai",
+      "Duration": "3",
+      "ID": "E10",
+      "Level": "",
+      "Name": "OSOH",
+      "Status": "C",
+      "Unit": "Month",
+      "Summary": "Multiple legacy ECC systems will merge and migrated to one HANA System",
+      "Contribution": [
+        "As senior application developer, responsible for new application development, testing, solution proposing,data migration..."
+      ],
+      "Skills": {
+        "Technical": "OData,Script Form, Smartform,ABAP CDS,New ABAP,OO,RFC,Web Service",
+        "Business": "IPMS,Core,TSL"
+      }
+
+    },
+    {
       "Company": "[4]Capgemini China(Freelance)",
       "Date": "2018/07",
       "Description": "Hybris Marketing China Localization",
@@ -12,7 +56,7 @@
       "Name": "Digital Account Localization",
       "Status": "C",
       "Unit": "Month",
-      "Summary": "To fufill the campaign in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
+      "Summary": "To fufill the new marketing in digital age, a new application [Digital Account] is created based on Hybirs Marketing component. The Digital Account is designed to be a general object, which was targeted to support more digital account types, e.g. Twitter, Facebook etc. The digital account should represent the company in the digital world.\n In China, we responsible for the Wechat and Line integration.",
       "Contribution": [
         "The project not organized like a traditional ABAP development mode",
         "\nbut popular product development mode - Agile Development. As ABAPer",
