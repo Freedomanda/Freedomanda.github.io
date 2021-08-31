@@ -2,15 +2,37 @@
   "DateDelimiter": " - ",
   "Project": [
     {
-      "Company": "[6]莱茵科技（上海)",
-      "Date": "2020/01",
-      "Description": "ComPASS",
-      "Customer": "莱茵科技（上海）",
+      "Company": "[7]思爱普",
+      "Date": "2021/01",
+      "Description": "现金流模块管理应用开发和维护",
+      "Customer": "N/A",
       "Duration": "9",
-      "ID": "F10",
+      "ID": "G10",
       "Level": "",
       "Name": "ComPASS",
       "Status": "B",
+      "Unit": "月",
+      "Summary": "为了适应新的用户需求，提高用户体检，传统的交易代码向Fiori应用和云端转型。",
+      "Contribution": [
+        "在不同的敏捷团队中，作为开发人员，负责自己的应用设计，文档撰写，代码实现，当前版本维护等。\n",
+        "作为ASE驱动者，通过一系列的活动，加强代码的可测试性，稳定性等。"
+      ],
+      "Skills": {
+        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori",
+        "Business": "FO,CLM,COP"
+      }
+
+    },    
+    {
+      "Company": "[6]莱茵科技（上海)",
+      "Date": "2020/01",
+      "Description": "ComPASS",
+      "Customer": "N/A",
+      "Duration": "12",
+      "ID": "F10",
+      "Level": "",
+      "Name": "ComPASS",
+      "Status": "C",
       "Unit": "月",
       "Summary": "为了更好迎合数字时代的新挑战，整合优化公司业务流程和资源到一个统一接口，替代旧的业务流程。\n以E2E为核心，整合了公司的各个子系统。",
       "Contribution": [
@@ -431,9 +453,19 @@
       "Description": " 负责 IPMS/CORE 子模块，参与公司内部迁移项目oSoH上线; 业务整合项目ComPASS项目各子模块SAP ABAP相关开发。",
       "delimiter": "  -  ",
       "dateValue": "2020/01/16",
+      "secondDateValue": "2021/01/308",
+      "dateFormat": "yyyy/MM/dd"
+    },
+    {
+      "ID": "6",
+      "CompanyName": "思爱普（上海）",
+      "Position": "高级应用开发员",
+      "Description": " 作为开发人员以及团队的ASE推动者，负责所属应用的设计，开发，维护，并驱动团队的敏捷开发转型。",
+      "delimiter": "  -  ",
+      "dateValue": "2021/01/11",
       "secondDateValue": "9999/12/31",
       "dateFormat": "yyyy/MM/dd"
-    }
+    }    
   ],
   "Education": [
     {

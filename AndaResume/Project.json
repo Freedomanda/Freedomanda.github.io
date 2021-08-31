@@ -2,15 +2,37 @@
   "DateDelimiter": " - ",
   "Project": [
     {
+      "Company": "[7]SAP Labs China",
+      "Date": "2021/01",
+      "Description": "Cash & Liquidity Management Application Development",
+      "Customer": "N/A",
+      "Duration": "9",
+      "ID": "G10",
+      "Level": "",
+      "Name": "ComPASS",
+      "Status": "B",
+      "Unit": "Month",
+      "Summary": "Application transfermation from traditional transaction codes to Fiori Apps.",
+      "Contribution": [
+        "As Developer, responsible for applicatoin design implement and maintanence.",
+        "\nAs ABAP ASE Driver, motivate team to follow the ASE principle for better quality assurance."
+      ],
+      "Skills": {
+        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori",
+        "Business": "FO,CLM,COP"
+      }
+
+    },    
+    {
       "Company": "[6]TUV Rheinland Shanghai",
       "Date": "2020/01",
       "Description": "ComPASS",
       "Customer": "N/A",
-      "Duration": "9",
+      "Duration": "12",
       "ID": "F10",
       "Level": "",
       "Name": "ComPASS",
-      "Status": "B",
+      "Status": "C",
       "Unit": "Month",
       "Summary": "A new end-to-end business platform created to better meet the new challenges of the digital age.",
       "Contribution": [
@@ -440,9 +462,19 @@
       "Description": "Mainly worked on program ComPASS and oSoH.  Involved in different subsystems, such as Scheduling,E2E,IMS..",
       "delimiter": "  -  ",
       "dateValue": "2020/01/16",
+      "secondDateValue": "2021/01/08",
+      "dateFormat": "yyyy/MM/dd"
+    },
+    {
+      "ID": "6",
+      "CompanyName": "SAP Labs China",
+      "Position": "Senior Application Developer",
+      "Description": "As developer and ABAP ASE driver in cash operation scrum team, responsible for the application development, maintanence, and quality insurance.",
+      "delimiter": "  -  ",
+      "dateValue": "2021/01/11",
       "secondDateValue": "9999/12/31",
       "dateFormat": "yyyy/MM/dd"
-    }
+    }    
 
   ],
   "Education": [
