@@ -10,16 +10,14 @@
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-preload="async" 
         data-sap-ui-compatVersion="edge" 
-		data-sap-ui-resourceroots='{"chuntian.home": "./"}' 
-		data-sap-ui-oninit="module:chuntian/home/index"> 
+		data-sap-ui-resourceroots='{"chuntian.home": "./"}' > 
 	</script>
 	<script type="text/javascript">
-		/*
 		sap.ui.getCore().attachInit(function () {
 		/* Replace by component
          * sap.ui.xmlview({
                	viewName : "chuntian.home.view.App"
-            		}).placeAt("content");
+            		}).placeAt("content");*/
             new sap.m.Shell({
                 app: new sap.ui.core.ComponentContainer({
                     name: "chuntian.home",
@@ -28,7 +26,7 @@
                     }
                 })
             }).placeAt("content");
-		});*/
+		});
 	</script>
 </head>
 <body class="sapUiBody" id="content">
