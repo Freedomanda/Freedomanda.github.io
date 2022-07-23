@@ -10,7 +10,6 @@ sap.ui.define([
 	return UIComponent.extend("chuntian.resume.Component", {
 
         metadata: {
-            interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
 		},
 
