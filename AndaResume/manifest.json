@@ -61,8 +61,9 @@
     "routing": {
       "config": {
         "routerClass": "sap.m.routing.Router",
+        "type": "View",
         "viewType": "XML",
-        "viewPath": "chuntian.resume.view",
+        "path": "chuntian.resume.view",
         "controlId": "app",
         "controlAggregation": "pages",
         "bypassed": {
@@ -105,9 +106,9 @@
           "level" : 1
         },
         "D10": {
-          "viewId": "D10",
-          "viewName": "Project.D10",
-          "viewLevel" : 2
+          "id": "D10",
+          "name": "Project.D10",
+          "level" : 2
         },
         "C50": {
           "viewId": "C50",
@@ -115,36 +116,36 @@
         },
         "C40": {
           "viewId": "C40",
-          "viewName": "Project.C40"
+          "name": "Project.C40"
         },
         "Detail": {
           "viewId": "Detail",
-          "viewName": "Project.Detail",
+          "name": "Project.Detail",
           "transition": "flip",
-          "viewLevel" : 2
+          "level" : 2
         },
         "notFound": {
           "viewId": "notFound",
-          "viewName": "NotFound",
+          "name": "NotFound",
           "transition": "show"
         },
         "resumeTabSkills": {
           "parent": "Detail",
           "viewId": "resumeSkills",
           "viewPath": "chuntian.resume.view.Project",
-          "viewName": "DetailSkills",
+          "name": "DetailSkills",
           "controlId": "skillsTab",
           "controlAggregation": "content",
-          "viewLevel" : 3
+          "level" : 3
         },
         "resumeTabOthers": {
           "parent": "Detail",
           "viewId": "resumeTabOthers",
           "viewPath": "chuntian.resume.view.Project",
-          "viewName": "DetailOthers",
+          "name": "DetailOthers",
           "controlId": "othersTab",
           "controlAggregation": "content",
-          "viewLevel" : 3
+          "level" : 3
         }
       }
     }
