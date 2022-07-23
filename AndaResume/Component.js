@@ -10,12 +10,7 @@ sap.ui.define([
 	return UIComponent.extend("chuntian.resume.Component", {
 
         metadata: {
-                /*rootView: {
-                    "viewName": "chuntian.resume.view.App",
-                    "type": "XML",
-                    "async": true,
-                    "id": "chuntian"
-                } */
+            interfaces: ["sap.ui.core.IAsyncContentCreation"],
 			manifest: "json"
 		},
 
@@ -25,9 +20,6 @@ sap.ui.define([
 		init: function() {
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
-
-			// set the device model
-            //this.setModel(models.createDeviceModel(), "device");
 
             // create the views based on the url/hash
             this.getRouter().initialize();
