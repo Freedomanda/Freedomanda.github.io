@@ -1,25 +1,23 @@
 {
-	"_version": "1.21.0",
-	"sap.app": {
-		"id": "chuntian.resume",
-		"type": "application",
-		"i18n": "i18n/i18n.properties",
-		"applicationVersion": {
-			"version": "1.0.0"
-		},
-		"title": "{{appTitle}}",
-		"description": "{{appDescription}}"
-	},
-
-	"sap.ui": {
-		"technology": "UI5",
-		"deviceTypes": {
-			"desktop": true,
-			"tablet": true,
-			"phone": true
-		}
-	},
-
+  "_version": "1.12.0",
+  "sap.app": {
+    "id": "chuntian.resume",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
   "sap.ui5": {
     "rootView": {
       "viewName": "chuntian.resume.view.App",
@@ -67,8 +65,8 @@
         "controlId": "app",
         "controlAggregation": "pages",
         "bypassed": {
-					"target": "notFound"
-				},
+          "target": "notFound"
+        },
         "transition": "slide",
         "async": true
       },
@@ -102,18 +100,17 @@
       "targets": {
         "ResumeHome": {
           "id": "ResumeHome",
-          "path": "chuntian.resume.view",
           "name": "Resume",
-          "level" : 1
+          "level": 1
         },
         "D10": {
           "id": "D10",
           "name": "D10",
           "path": "chuntian.resume.view.Project",
-          "level" : 2
+          "level": 2
         },
         "C50": {
-          "id": "C50",         
+          "id": "C50",
           "name": "C50",
           "path": "chuntian.resume.view.Project"
         },
@@ -127,7 +124,7 @@
           "name": "Detail",
           "path": "chuntian.resume.view.Project",
           "transition": "flip",
-          "level" : 2
+          "level": 2
         },
         "notFound": {
           "id": "notFound",
@@ -141,7 +138,7 @@
           "name": "DetailSkills",
           "controlId": "skillsTab",
           "controlAggregation": "content",
-          "level" : 3
+          "level": 3
         },
         "resumeTabOthers": {
           "parent": "Detail",
@@ -150,7 +147,7 @@
           "name": "DetailOthers",
           "controlId": "othersTab",
           "controlAggregation": "content",
-          "level" : 3
+          "level": 3
         }
       }
     }
