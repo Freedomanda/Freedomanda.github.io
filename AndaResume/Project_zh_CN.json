@@ -1,4 +1,4 @@
-﻿{
+{
   "DateDelimiter": " - ",
   "Project": [
     {
@@ -6,10 +6,10 @@
       "Date": "2021/01",
       "Description": "现金流管理应用开发和维护",
       "Customer": "N/A",
-      "Duration": "9",
+      "Duration": "19",
       "ID": "G10",
       "Level": "",
-      "Name": "ComPASS",
+      "Name": "SAP S/4 HANA",
       "Status": "B",
       "Unit": "月",
       "Summary": "为了适应新的用户需求，提高用户体检，传统的交易代码向Fiori应用和云端转型。",
@@ -18,7 +18,7 @@
         "作为ASE驱动者，通过一系列的活动，加强代码的可测试性，稳定性等。"
       ],
       "Skills": {
-        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori",
+        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori,RAP",
         "Business": "FO,CLM,COP"
       }
 

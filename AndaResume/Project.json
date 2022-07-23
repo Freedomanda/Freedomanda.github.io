@@ -1,4 +1,4 @@
-﻿{
+{
   "DateDelimiter": " - ",
   "Project": [
     {
@@ -6,10 +6,10 @@
       "Date": "2021/01",
       "Description": "Cash & Liquidity Management Application Development",
       "Customer": "N/A",
-      "Duration": "9",
+      "Duration": "19",
       "ID": "G10",
       "Level": "",
-      "Name": "ComPASS",
+      "Name": "SAP S/4 HANA",
       "Status": "B",
       "Unit": "Month",
       "Summary": "Application transfermation from traditional transaction codes to Fiori Apps.",
@@ -18,7 +18,7 @@
         "\nAs ABAP ASE Driver, motivate team to follow the ASE principle for better quality assurance."
       ],
       "Skills": {
-        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori",
+        "Technical": "OData,ABAP CDS,New ABAP,OO,Fiori,RAP",
         "Business": "FO,CLM,COP"
       }
 
