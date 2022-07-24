@@ -39,7 +39,7 @@
         "在不同的敏捷团队中，根据 PO, scrum master， BA 提出的Story, 与前端协作，完成ABAP 后端的子任务。"
       ],
       "Skills": {
-        "Technical": "OData,ABAP CDS,New ABAP,OO,iFlow",
+        "Technical": "OData,ABAP CDS,New ABAP,OO",
         "Business": "Scheduling,IMS,IPMS,CORE,E2E"
       }
 
@@ -55,9 +55,9 @@
       "Name": "OSOH",
       "Status": "C",
       "Unit": "月",
-      "Summary": "。",
+      "Summary": "公司原有的业务运行根据不同的地区，运行在SAP R/3系统上不同的CLIENT，为了降低成本，整合业务，在新的SAP S/4 HANA上\n统一所有地区的业务。",
       "Contribution": [
-        "此项目的开发与交付与传统的 ABAP实施不太一样，采用敏捷开发的方式。\n我在本项目的后期进入，角色是ABAP产品开发和维护，主要负责【社交账户】应用，微信&Line集成的代码维护与客户支持。\n具体来说"
+        "数据迁移工具，开发新的报表/功能，协助测试人员修改新的整合系统流程中遇到的问题。"
       ],
       "Skills": {
         "Technical": "OData,Script Form, Smartform,ABAP CDS,New ABAP,OO,RFC,Web Service",
